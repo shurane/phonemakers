@@ -5,6 +5,18 @@ import tld
 import multiprocessing
 requests_cache.install_cache("phonemakers.cache")
 
+"""
+This grabs the phone data from GSMArena. It goes through a list of makers,
+then goes through the list of phones by each maker, and then pulls out
+whatever specs GSMArena lists for said phones.
+
+The goal of this project is to make more informed data about which phones to
+buy. You can filter by what operating system it has, when it was released,
+whether it supports and SD card, the diagonal size of the screen, and more.
+This relies entirely on the data from GSMArena and similar websites
+"""
+
+
 URL = "http://www.gsmarena.com/makers.php3"
 TLD_URL = tld.get_tld(URL)
 USER_AGENT = "Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.49 Safari/537.36"
@@ -37,13 +49,6 @@ if __name__ == "__main__":
 
     r = requests.get(URL)
     soup = bs4.BeautifulSoup(r.text)
-
-    #makers = soup.select("#main tr > td > a")
-    #phonemaker_hrefs= []
-    ## every other element is a duplicate
-    #for maker in makers[::2]:
-        #phonemaker_hrefs.append("http://{0}/{1}".format(TLD_URL,maker.attrs["href"]))
-
     makers = get_makers(soup)
 
     #pool = multiprocessing.Pool(processes=10)
@@ -52,8 +57,4 @@ if __name__ == "__main__":
     acer_phones = open("acer-phones-59.php").read()
     acer_soup = bs4.BeautifulSoup(acer_phones)
 
-    phones = acer_soup.select("#main .makers > ul > li")
-    phone_hrefs = []
-    for phone in phones:
-        phone_hrefs.append("http://{0}/{1}".format(TLD_URL,phone.a.attrs["href"]))
-
+    acer_hrefs = get_phones(acer_soup)
