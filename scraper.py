@@ -2,7 +2,8 @@ import bs4
 import requests
 import requests_cache
 import tld
-import multiprocessing
+import itertools
+import time
 requests_cache.install_cache("phonemakers.cache")
 
 """
@@ -14,8 +15,33 @@ The goal of this project is to make more informed data about which phones to
 buy. You can filter by what operating system it has, when it was released,
 whether it supports and SD card, the diagonal size of the screen, and more.
 This relies entirely on the data from GSMArena and similar websites
-"""
 
+#TODO:
+What details do we care about?
+    - model name
+    - phone carriers supported on ( or unlocked)
+    - SIM card type ( if available)
+    - announce date
+    - release date
+    - weight
+    - colors
+    - hardware specs
+        - phone dimensions
+        - screen dimensions, pixel density
+        - microsd card slot
+        - internal storage options
+        - RAM amount
+        - NFC support
+        - Bluetooth version
+        - Camera [ primary, secondary ]
+        - Android OS shipped with, list of OTA updates
+        - CPU
+        - GPU
+        - sensors
+        - GPS
+        - endurance rating
+        - standard battery
+"""
 
 URL = "http://www.gsmarena.com/makers.php3"
 TLD_URL = tld.get_tld(URL)
@@ -24,37 +50,71 @@ USER_AGENT = "Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Geck
 HEADERS = { "User-Agent" : USER_AGENT
            , "Accept" : "text/html" }
 
-def grab_url(url):
-    print("working on {0}".format(url))
-    return requests.get(url)
+def rget(url, **kwargs):
+    return requests.get(url,headers=HEADERS,**kwargs)
 
-def get_makers(root_soup):
-    makers = soup.select("#main tr > td > a")
-    hrefs= []
+class Maker(object):
+    def __init__(self,name,url):
+        self.name = name
+        self.url = url
+    def __str__(self):
+        return "<Maker({0},{1})>".format(self.name,self.url)
+    def __repr__(self):
+        return str(self)
+
+    def get_phones(self):
+        r = rget(self.url)
+        soup = bs4.BeautifulSoup(r.text)
+        phones = soup.select("#main .makers > ul > li > a")
+        results = []
+        for phone in phones:
+            name = phone.strong.text
+            href = "http://{0}/{1}".format(TLD_URL,phone.attrs["href"])
+            results.append(Phone(name,href))
+
+        return results
+
+class Phone(object):
+    def __init__(self,name,url):
+        self.name = name
+        self.url = url
+    def __str__(self):
+        return "<Phone({0},{1})>".format(self.name,self.url)
+    def __repr__(self):
+        return str(self)
+    def get_page(self):
+        r = rget(self.url)
+        soup = bs4.BeautifulSoup(r.text)
+        specs = soup.select("#specs-list")[0]
+        pass
+
+def get_makers(url):
+    r = rget(url)
+    root_soup = bs4.BeautifulSoup(r.text)
+    makers = root_soup.select("#main tr > td > a")
+    results = []
     # every other element is a duplicate
     for maker in makers[::2]:
-        hrefs.append("http://{0}/{1}".format(TLD_URL,maker.attrs["href"]))
+        href = "http://{0}/{1}".format(TLD_URL,maker.attrs["href"])
+        name = maker.img.attrs["alt"]
+        m = Maker(name,href)
+        results.append(m)
 
-    return hrefs
+    return results
 
-def get_phones(maker_soup):
-    phones = maker_soup.select("#main .makers > ul > li")
-    hrefs = []
-    for phone in phones:
-        hrefs.append("http://{0}/{1}".format(TLD_URL,phone.a.attrs["href"]))
-
-    return hrefs
 
 if __name__ == "__main__":
 
-    r = requests.get(URL)
-    soup = bs4.BeautifulSoup(r.text)
-    makers = get_makers(soup)
+    #makers = get_makers(URL)
+    #mdict = {}
 
-    #pool = multiprocessing.Pool(processes=10)
-    #phonemaker_pages = pool.map(grab_url, phonemaker_hrefs)
+    #for maker in makers:
+        #print("Working on " + maker.name)
+        #mdict[maker.name] = maker.get_phones()
 
-    acer_phones = open("acer-phones-59.php").read()
-    acer_soup = bs4.BeautifulSoup(acer_phones)
+    #phones = list(itertools.chain(*mdict.values()))
+    #for phone in phones:
+        #time.sleep(0.2)
+        #pass
+    pass
 
-    acer_hrefs = get_phones(acer_soup)
