@@ -3,3 +3,4 @@ jsonpickle==0.6.1
 requests==2.0.0
 requests-cache==0.4.3
 tld==0.6.1
+pyPEG2==2.14.0
