@@ -3,7 +3,8 @@ import requests
 import requests_cache
 import tld
 import itertools
-import time
+import re
+import warnings
 requests_cache.install_cache("phonemakers.cache")
 
 """
@@ -53,6 +54,12 @@ HEADERS = { "User-Agent" : USER_AGENT
 def rget(url, **kwargs):
     return requests.get(url,headers=HEADERS,**kwargs)
 
+def cleanse(string):
+    string = re.sub("\xa0","",string)
+    string = re.sub("\r\n","\n",string)
+    string = string.strip()
+    return string
+
 class Maker(object):
     def __init__(self,name,url):
         self.name = name
@@ -78,6 +85,8 @@ class Phone(object):
     def __init__(self,name,url):
         self.name = name
         self.url = url
+        self.fields = {}
+        self.description = ""
     def __str__(self):
         return "<Phone({0},{1})>".format(self.name,self.url)
     def __repr__(self):
@@ -85,7 +94,25 @@ class Phone(object):
     def get_page(self):
         r = rget(self.url)
         soup = bs4.BeautifulSoup(r.text)
-        specs = soup.select("#specs-list")[0]
+        description = soup.select("#specs-list > p")
+        self.description = description[0].text if description else None
+
+        tables = soup.select("table")
+        for table in tables:
+            title = table.th.text
+            subvalues = itertools.izip(table.select(".ttl"),
+                                       table.select(".nfo"))
+            subdict = {}
+            for key, value in subvalues:
+                clean_key = cleanse(key.text)
+                clean_value = cleanse(value.text)
+                if not clean_key:
+                    warnings.warn("Empty key. '{0}'->('{1}':'{2}')"
+                                  .format(title, clean_key, clean_value))
+                subdict[clean_key] = clean_value
+
+            self.fields[title] = subdict
+
         pass
 
 def get_makers(url):
