@@ -9,7 +9,7 @@ import urlparse
 from collections import defaultdict
 
 import logging
-logging.basicConfig(filename="cache/error.log")
+logging.basicConfig(filename="./cache/error.log")
 
 """
 This grabs the phone data from GSMArena. It goes through a list of makers,
@@ -22,6 +22,8 @@ whether it supports and SD card, the diagonal size of the screen, and more.
 This relies entirely on the data from GSMArena and similar websites
 
 Now we have all the details on a per-phone basis. Wonderful.
+
+Some of my least finest work, but it serves the purpose.
 
 TODO:
 YhG1s and cdunklau from #python suggest me using Scrapy instead of
@@ -79,6 +81,7 @@ class Maker(object):
     def __init__(self,name,url):
         self.name = name
         self.url = url
+        self.results = []
     def __str__(self):
         return "<Maker({0},{1})>".format(self.name,self.url)
     def __repr__(self):
@@ -87,30 +90,36 @@ class Maker(object):
     def get_phones(self):
         rtext = rget(self.url, directory=CACHE_MAKERS)
         soup = bs4.BeautifulSoup(rtext)
-        phones = soup.select("#main .makers > ul > li > a")
-        results = []
-        for phone in phones:
-            name = phone.strong.text
-            href = "http://{0}/{1}".format(TLD_URL,phone.attrs["href"])
-            results.append(Phone(name,href))
+        phone_soups = soup.select("#main .makers > ul > li > a")
+        phones = []
+        for phone_soup in phone_soups:
+            name = phone_soup.strong.text
+            href = "http://{0}/{1}".format(TLD_URL,phone_soup.attrs["href"])
+            phones.append(Phone(name=name,url=href,maker=self.name))
 
-        return results
+        self.phones = phones
+
+        return phones
 
 class Phone(object):
-    def __init__(self,name,url):
+    def __init__(self,name="",url="",maker=""):
         self.name = name
         self.url = url
+        self.maker = maker
         self.fields = {}
         self.description = ""
+        self.canonical_name = "{0} {1}".format(self.maker,self.name)
     def __str__(self):
-        return "<Phone({0},{1})>".format(self.name,self.url)
+        return "<Phone({0},{1},{2})>".format(self.maker,self.name,self.url)
     def __repr__(self):
         return str(self)
-    def get_page(self):
+    def get_fields(self):
         rtext = rget(self.url,directory=CACHE_PHONES)
         soup = bs4.BeautifulSoup(rtext)
         description = soup.select("#specs-list > p")
         self.description = description[0].text if description else None
+        fields = {}
+        sections_with_emptykey = defaultdict(int)
 
         tables = soup.select("table")
         for table in tables:
@@ -118,7 +127,6 @@ class Phone(object):
             subvalues = itertools.izip(table.select(".ttl"),
                                        table.select(".nfo"))
             subdict = {}
-            sections_with_emptykey = defaultdict(int)
             for key, value in subvalues:
                 clean_key = cleanse(key.text)
                 clean_value = cleanse(value.text)
@@ -127,13 +135,14 @@ class Phone(object):
                 if not clean_key:
                     sections_with_emptykey[title] += 1
 
-            if sections_with_emptykey:
-                logging.warn("{0}: Sections with empty keys\n{1}"
-                             .format(self,sections_with_emptykey))
+            fields[title] = subdict
 
-            self.fields[title] = subdict
+        if sections_with_emptykey:
+            logging.warn("{0}: Sections with empty keys\n{1}"
+                         .format(self,sections_with_emptykey))
+        self.fields = fields
 
-        pass
+        return fields
 
 def get_makers(url):
     rtext = rget(url)
@@ -162,12 +171,18 @@ if __name__ == "__main__":
 
     print("#Phones")
     phones = list(itertools.chain(*mdict.values()))
-    for phone in itertools.islice(phones,50):
-        print("Working on " + phone.name)
+    for index, phone in enumerate(phones):
+        if index % 100 == 0:
+            print("{:4} Working on {} {}".format(index, phone.maker, phone.name))
         try:
-            phone.get_page()
+            phone.get_fields()
         except Exception as e:
-            logging.error("encountered exception for {0}", phone.name)
+            logging.error("encountered exception for {0}".format(phone.name))
             logging.exception(e)
-        pass
+
+    if True:
+        import jsonpickle
+        with open(os.path.join(CACHE,"mdict.json"),"w") as fm:
+            mdict_json = jsonpickle.encode(mdict)
+            fm.write(mdict_json)
 
