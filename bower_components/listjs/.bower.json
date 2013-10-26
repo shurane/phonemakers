@@ -1,0 +1,15 @@
+{
+  "name": "listjs",
+  "homepage": "https://github.com/javve/list",
+  "version": "0.2.1",
+  "_release": "0.2.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.2.1",
+    "commit": "b13fe90f1f2602a92aceaf0919f8b53a8d88a789"
+  },
+  "_source": "git://github.com/javve/list.git",
+  "_target": "~0.2.1",
+  "_originalSource": "listjs",
+  "_direct": true
+}
