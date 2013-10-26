@@ -1,0 +1,22 @@
+{
+  "name": "phonemakers",
+  "version": "0.0.1",
+  "authors": [
+    "Ehtesh Choudhury <merlockmagus@gmail.com>"
+  ],
+  "description": "filter phones by features",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.0.0",
+    "listjs": "~0.2.1",
+    "select2": "~3.4.4"
+  }
+}
