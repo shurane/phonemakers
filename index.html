@@ -8,7 +8,13 @@
 
     <body>
         <div id="hacker-list">
-            <ul class="list"></ul>
+            <table>
+                <tbody class="list"></tbody>
+            </table>
+                <!--<ul class="list"></ul>-->
+        </div>
+
+        <div id="secondary">
         </div>
 
         <!-- BOILERPLATE -->
@@ -24,31 +30,8 @@
 
         <script src="bower_components/jquery/jquery.js"></script>
         <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
-        <script src="bower_components/select2/select2.min.js"></script>
-        <script src="bower_components/listjs/list.min.js"></script>
-        <script>
-            dundun = {};  // XXX remove later
-            $.getJSON("mdict.json", function(data){
-                var options = { item: 'hacker-item' };
-                var hackerList = new List('hacker-list', options, data["ZTE"]);
-                
-                /* dundun = data;
-
-                var count = 0;
-                for(var makerName in data){
-                    console.log(makerName);
-                    maker = data[makerName]
-                    for (var phoneName in maker){
-                        count +=1;
-                        if ( count % 50 ==0 ){
-                            console.log(count, maker[phoneName]);
-                        }
-                    }
-                }
-                console.log(count);
-                */
-            });
-        </script>
+        <script src="bower_components/listjs/src/list.js"></script>
+        <script src="application.js"></script>
     </body>
 
 </html>
