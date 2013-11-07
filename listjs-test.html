@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>   -->
+    </head>
+
+    <body>
+        <div id="hacker-list">
+            <table>
+                <tbody class="list"></tbody>
+            </table>
+                <!--<ul class="list"></ul>-->
+        </div>
+
+        <!-- BOILERPLATE -->
+
+        <div style="display:none;">
+            <!-- A template element is needed when list is empty, TODO: needs a better solution -->
+            <li id="hacker-item">
+               <h3 class="name"></h3>
+               <p class="city"></p>
+            </li>
+        </div>
+
+        <script src="bower_components/jquery/jquery.js"></script>
+        <script src="bower_components/listjs/src/list.js"></script>
+        <script>
+            var options = { item: 'hacker-item' };
+
+            var values = [
+                { name: 'Jonny', city:'Stockholm' }
+                , { name: 'Jonas', city:'Berlin' }
+            ];
+
+            var hackerList = new List('hacker-list', options, values);
+                
+        </script>
+    </body>
+
+</html>
