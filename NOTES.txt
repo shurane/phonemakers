@@ -1,0 +1,5 @@
+What do I want for text search?
+    - lunr.js
+    - listjs
+    - fuse.js
+    - fullproof

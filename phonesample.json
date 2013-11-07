@@ -1,0 +1,1314 @@
+[{
+    "py/object": "__main__.Phone",
+    "description": "For T-Mobile.",
+    "url": "http://gsmarena.com/samsung_galaxy_light-5786.php",
+    "fields": {
+        "Body": {
+            "Dimensions": "121.4 x 63 x 10.4 mm (4.78 x 2.48 x 0.41 in)",
+            "Weight": "122.8 g (4.34 oz)"
+        },
+        "Sound": {
+            "Loudspeaker": "Yes",
+            "3.5mm jack": "Yes",
+            "Alert types": "Vibration; MP3, WAV ringtones"
+        },
+        "Features": {
+            "": "- SNS integration\n- MP4/DivX/XviD/WMV/H.264/H.263 player\n- MP3/WAV/eAAC+/AC3/FLAC player\n- Organizer\n- Image/video editor\n- Document viewer\n- Google Search, Maps, Gmail,\nYouTube, Calendar, Google Talk, Picasa\n- Voice memo/dial/commands\n- Predictive text input (Swype)",
+            "Java": "Yes, via Java MIDP emulator",
+            "Colors": "Dark brown",
+            "Radio": "No",
+            "Messaging": "SMS(threaded view), MMS, Email, Push Mail, IM, RSS",
+            "Sensors": "Accelerometer, proximity, compass",
+            "GPS": "Yes, with A-GPS support",
+            "OS": "Android OS, v4.0 (Ice Cream Sandwich)",
+            "CPU": "Quad-core 1.4 GHz",
+            "Browser": "HTML"
+        },
+        "Battery": {
+            "": "Li-Ion 1800 mAh battery",
+            "Talk time": "",
+            "Stand-by": ""
+        },
+        "General": {
+            "Status": "Coming soon. Exp. release 2013, October",
+            "2G Network": "GSM 850 / 900 / 1800 / 1900",
+            "3G Network": "HSDPA 850 / 1700 / 1900 / 2100",
+            "4G Network": "LTE 700 MHz Class 13 / 1700 / 2100",
+            "Announced": "2013, October",
+            "SIM": "Yes"
+        },
+        "Camera": {
+            "Primary": "5 MP, 2592x1944 pixels, autofocus, LED flash",
+            "Video": "Yes, 720p@30fps",
+            "Features": "Geo-tagging, touch focus, face detection",
+            "Secondary": "Yes, VGA"
+        },
+        "Memory": {
+            "Internal": "8 GB, 1 GB RAM",
+            "Card slot": "microSD, up to 64 GB"
+        },
+        "Data": {
+            "GPRS": "Yes",
+            "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band, DLNA, Wi-Fi hotspot",
+            "USB": "Yes, microUSB v2.0",
+            "Bluetooth": "Yes, v2.1 with A2DP, EDR",
+            "EDGE": "Yes",
+            "NFC": "Yes",
+            "Speed": "HSDPA, HSUPA, LTE"
+        },
+        "Display": {
+            "Multitouch": "Yes",
+            "Protection": "Scratch-resistant glass",
+            "Type": "Capacitive touchscreen, 16M colors",
+            "Size": "480 x 800 pixels, 4.0 inches (~233 ppi pixel density)"
+        }
+    },
+    "canonical_name": "Samsung Galaxy Light",
+    "maker": "Samsung",
+    "name": "Galaxy Light"
+}, {
+    "py/object": "__main__.Phone",
+    "description": "For South Korea",
+    "url": "http://gsmarena.com/samsung_galaxy_round_g910s-5766.php",
+    "fields": {
+        "Body": {
+            "Build": "Curved body and display",
+            "Weight": "154 g (5.43 oz)",
+            "Dimensions": "151.1 x 79.6 x 7.9 mm (5.95 x 3.13 x 0.31 in)"
+        },
+        "Sound": {
+            "Loudspeaker": "Yes",
+            "3.5mm jack": "Yes",
+            "Alert types": "Vibration; MP3, WAV ringtones"
+        },
+        "Features": {
+            "": "- ANT+ support\n- S-Voice natural language commands and dictation\n- Air gestures\n- SNS integration\n- Active noise cancellation with dedicated mic\n- Dropbox (50 GB storage)\n- TV-out (via MHL A/V link)\n- MP4/DivX/XviD/WMV/H.264/H.263 player\n- MP3/WAV/eAAC+/AC3/FLAC player\n- Organizer\n- Image/video editor\n- Document editor (Word, Excel, PowerPoint, PDF)\n- Google Search, Maps, Gmail,\nYouTube, Calendar, Google Talk, Picasa\n- Voice memo/dial/commands\n- Predictive text input (Swype)",
+            "Java": "Yes, via Java MIDP emulator",
+            "Chipset": "Qualcomm Snapdragon 800",
+            "Colors": "Luxury Brown",
+            "Radio": "No",
+            "GPU": "Adreno 330",
+            "Messaging": "SMS(threaded view), MMS, Email, Push Mail, IM, RSS",
+            "Sensors": "Accelerometer, gyro, proximity, compass, barometer, temperature, humidity, gesture",
+            "GPS": "Yes, with A-GPS support and GLONASS",
+            "OS": "Android OS, v4.3 (Jelly Bean)",
+            "CPU": "Quad-core 2.3 GHz Krait 400",
+            "Browser": "HTML5"
+        },
+        "Battery": {
+            "": "Li-Ion 2800 mAh battery",
+            "Talk time": "Up to 16 h",
+            "Stand-by": "Up to 370 h (2G) / Up to 330 h (3G)",
+            "Music play": "Up to 74 h"
+        },
+        "Misc": {
+            "SAR US": "0.63 W/kg (head)   0.69 W/kg (body)",
+            "Price group": "",
+            "SAR EU": "0.21 W/kg (head)   0.35 W/kg (body)"
+        },
+        "General": {
+            "Status": "Available. Released 2013, October",
+            "2G Network": "GSM 850 / 900 / 1800 / 1900",
+            "3G Network": "HSDPA 850 / 1900 / 2100",
+            "4G Network": "LTE 850 / 1800 (LTE-A)",
+            "Announced": "2013, October",
+            "SIM": "Yes"
+        },
+        "Camera": {
+            "Primary": "13 MP, 4128 x 3096 pixels, autofocus, LED flash",
+            "Video": "Yes, 2160p@30fps, 1080p@60fps",
+            "Features": "Dual Shot, Simultaneous video and image recording, geo-tagging, touch focus, face and smile detection, image stabilization, panorama, HDR",
+            "Secondary": "Yes, 2 MP, 1080p@30fps"
+        },
+        "Memory": {
+            "Internal": "32 GB, 3 GB RAM",
+            "Card slot": "microSD, up to 64 GB"
+        },
+        "Data": {
+            "GPRS": "Yes",
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, DLNA, Wi-Fi Direct, Wi-Fi hotspot",
+            "Infrared port": "Yes",
+            "Bluetooth": "Yes, v4.0 with A2DP, LE, EDR",
+            "EDGE": "Yes",
+            "NFC": "Yes",
+            "Speed": "HSPA+, LTE-A",
+            "USB": "Yes, microUSB v3.0 (MHL 2), USB Host"
+        },
+        "Display": {
+            "Multitouch": "Yes",
+            "Type": "Super Flexible AMOLED capacitive touchscreen, 16M colors",
+            "Size": "1080 x 1920 pixels, 5.7 inches (~386 ppi pixel density)"
+        }
+    },
+    "canonical_name": "Samsung Galaxy Round G910S",
+    "maker": "Samsung",
+    "name": "Galaxy Round G910S"
+}, {
+    "py/object": "__main__.Phone",
+    "description": "Also available as Samsung Galaxy Star S7262 with dual SIM card slot.",
+    "url": "http://gsmarena.com/samsung_galaxy_star_pro_s7260-5749.php",
+    "fields": {
+        "Body": {
+            "Dimensions": "121.2 x 62.7 x 10.6 mm (4.77 x 2.47 x 0.42 in)",
+            "Weight": "121 g (4.27 oz)"
+        },
+        "Sound": {
+            "Loudspeaker": "Yes",
+            "3.5mm jack": "Yes",
+            "Alert types": "Vibration, MP3 ringtones"
+        },
+        "Features": {
+            "": "- SNS integration\n- MP4/WMV/H.264 player\n- MP3/WAV/eAAC+ player\n- Organizer\n- Image/video editor\n- Google Search, Maps, Gmail,\nYouTube, Calendar, Google Talk, Picasa\n- Document viewer\n- Voice memo/dial\n- Predictive text input",
+            "Java": "Yes, via Java MIDP emulator",
+            "Colors": "Black, White",
+            "Radio": "Stereo FM radio with RDS, FM recording",
+            "Messaging": "SMS(threaded view), MMS, Email, Push Email, IM",
+            "Sensors": "Accelerometer",
+            "GPS": "No",
+            "OS": "Android OS, v4.1.2 (Jelly Bean)",
+            "CPU": "1 GHz Cortex-A5",
+            "Browser": "HTML"
+        },
+        "Battery": {
+            "": "Li-Ion 1500 mAh battery",
+            "Talk time": "Up to 15 h",
+            "Stand-by": "Up to 370 h",
+            "Music play": "Up to 26 h"
+        },
+        "Misc": {
+            "Price group": "",
+            "SAR EU": "0.50 W/kg (head)   0.31 W/kg (body)"
+        },
+        "General": {
+            "": "GSM 850 / 900 / 1800 / 1900 - GT-S7262 (SIM 1 & SIM 2)",
+            "2G Network": "GSM 850 / 900 / 1800 / 1900 - GT-S7260",
+            "Announced": "2013, October",
+            "SIM": "Optional Dual SIM (Micro-SIM, dual stand-by)",
+            "Status": "Available. Released 2013, October"
+        },
+        "Camera": {
+            "Video": "Yes",
+            "Primary": "2 MP, 1600x1200 pixels",
+            "Secondary": "No"
+        },
+        "Memory": {
+            "Internal": "4 GB, 512 MB RAM",
+            "Card slot": "microSD, up to 32 GB"
+        },
+        "Data": {
+            "GPRS": "Yes",
+            "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, Wi-Fi hotspot",
+            "USB": "Yes, microUSB v2.0",
+            "Bluetooth": "Yes, v4.0",
+            "EDGE": "Yes",
+            "Speed": "No"
+        },
+        "Display": {
+            "Multitouch": "Yes",
+            "Type": "TFT capacitive touchscreen, 16M colors",
+            "Size": "480 x 800 pixels, 4.0 inches (~233 ppi pixel density)"
+        }
+    },
+    "canonical_name": "Samsung Galaxy Star Pro S7260",
+    "maker": "Samsung",
+    "name": "Galaxy Star Pro S7260"
+}, {
+    "py/object": "__main__.Phone",
+    "description": "Available as:\nSamsung Galaxy Note 10.1 SM-P600 Wi-Fi\nSamsung Galaxy Note 10.1 SM-P601 3G\nSamsung Galaxy Note 10.1 SM-P605 3G+LTE\nSM-P600 model has no support for GSM voice communication, SMS, and MMS.",
+    "url": "http://gsmarena.com/samsung_galaxy_note_10_1_(2014_edition)-5677.php",
+    "fields": {
+        "Body": {
+            "": "- S Pen stylus",
+            "Dimensions": "243.1 x 171.4 x 7.9 mm (9.57 x 6.75 x 0.31 in)",
+            "Weight": "540g (WIFI)/ 535 g (3G)/ 547g (LTE) (1.18 lb)"
+        },
+        "Sound": {
+            "": "- Dolby mobile sound enhancement",
+            "3.5mm jack": "Yes",
+            "Alert types": "Vibration; MP3, WAV ringtones",
+            "Loudspeaker": "Yes, with stereo speakers"
+        },
+        "Tests": {
+            "Camera": "Photo / Video"
+        },
+        "Features": {
+            "": "- SNS integration\n- Active noise cancellation with dedicated mic\n- MP4/DivX/XviD/WMV/H.264/H.263 player\n- MP3/WAV/eAAC+/AC3/FLAC player\n- Organizer\n- Image/video editor\n- Document viewer\n- Google Search, Maps, Gmail,\nYouTube, Calendar, Google Talk, Picasa\n- Voice memo/dial\n- Predictive text input (Swype)",
+            "Java": "Yes, via Java MIDP emulator",
+            "Chipset": "Qualcomm Snapdragon 800",
+            "Colors": "Black, White",
+            "Radio": "TBD",
+            "GPU": "Adreno 330 (LTE model)",
+            "Messaging": "SMS(threaded view), MMS, Email, Push Mail, IM, RSS",
+            "Sensors": "Accelerometer, proximity, compass",
+            "GPS": "Yes, with A-GPS support and GLONASS",
+            "OS": "Android OS, v4.3 (Jelly Bean)",
+            "CPU": "Quad-core 2.3 GHz Krait 400 (LTE model)/ Quad-core 1.9 GHz Cortex-A15 & quad-core 1.3 GHz Cortex-A7 (3G model)",
+            "Browser": "HTML5"
+        },
+        "Battery": {
+            "": "Non-removable Li-Po 8220 mAh battery",
+            "Talk time": "Up to 10 h (multimedia) (2G) / Up to 49 h (3G)",
+            "Stand-by": "Up to 2230 h",
+            "Music play": "Up to 98 h"
+        },
+        "Misc": {
+            "SAR US": "1.59 W/kg (body)",
+            "Price group": "",
+            "SAR EU": "0.63 W/kg (body)"
+        },
+        "General": {
+            "Status": "Available. Released 2013, October",
+            "2G Network": "GSM 850 / 900 / 1800 / 1900 - all versions",
+            "3G Network": "HSDPA 850 / 900 / 1900 / 2100 - all versions",
+            "4G Network": "LTE 800 / 850 / 900 / 1800 / 2100 / 2600 - SM-P605",
+            "Announced": "2013, September",
+            "SIM": "Micro-SIM"
+        },
+        "Camera": {
+            "Primary": "8 MP, 3264x2448 pixels, autofocus, LED flash, check quality",
+            "Video": "Yes, 1080p@60fps (LTE model), check quality",
+            "Features": "Geo-tagging, face and smile detection",
+            "Secondary": "Yes, 2 MP, 1080p@30fps"
+        },
+        "Memory": {
+            "Internal": "16/32/64 GB storage, 3 GB RAM",
+            "Card slot": "microSD, up to 64 GB"
+        },
+        "Data": {
+            "GPRS": "Yes",
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, Wi-Fi hotspot",
+            "Infrared port": "Yes",
+            "Bluetooth": "Yes, v4.0 with A2DP",
+            "EDGE": "Yes",
+            "Speed": "HSDPA, 42 Mbps (LTE model), 21 Mbps (3G model); HSUPA, 5.76 Mbps; LTE, Cat4, 50 Mbps UL, 150 Mbps DL",
+            "USB": "Yes, microUSB v2.0, USB Host"
+        },
+        "Display": {
+            "": "- Samsung TouchWiz UI",
+            "Multitouch": "Yes, up to 10 fingers",
+            "Type": "Super clear LCD capacitive touchscreen, 16M colors",
+            "Size": "2560 x 1600 pixels, 10.1 inches (~299 ppi pixel density)"
+        }
+    },
+    "canonical_name": "Samsung Galaxy Note 10.1 (2014 Edition)",
+    "maker": "Samsung",
+    "name": "Galaxy Note 10.1 (2014 Edition)"
+}, {
+    "py/object": "__main__.Phone",
+    "description": "Available as:\nSamsung Galaxy Note 3 N9000 with 3G connectivity\nSamsung Galaxy Note 3 N9002 with dual SIM card support\nSamsung Galaxy Note 3 N9005 with 3G & LTE connectivity\nAlso known as Samsung Galaxy Note III",
+    "url": "http://gsmarena.com/samsung_galaxy_note_3-5665.php",
+    "fields": {
+        "Body": {
+            "": "- S Pen stylus",
+            "Dimensions": "151.2 x 79.2 x 8.3 mm (5.95 x 3.12 x 0.33 in)",
+            "Weight": "168 g (5.93 oz)"
+        },
+        "Sound": {
+            "Loudspeaker": "Yes",
+            "3.5mm jack": "Yes",
+            "Alert types": "Vibration; MP3, WAV ringtones"
+        },
+        "Tests": {
+            "Loudspeaker": "Voice 70dB / Noise 66dB / Ring 78dB",
+            "Battery life": "Endurance rating 75h",
+            "Audio quality": "Noise -96.5dB / Crosstalk -96.3dB",
+            "Display": "Contrast ratio: Infinite (nominal) / 3.997:1 (sunlight)",
+            "Camera": "Photo / Video"
+        },
+        "Features": {
+            "": "- ANT+ support\n- S-Voice natural language commands and dictation\n- Air gestures\n- SNS integration\n- Active noise cancellation with dedicated mic\n- Dropbox (50 GB storage)\n- TV-out (via MHL A/V link)\n- MP4/DivX/XviD/WMV/H.264/H.263 player\n- MP3/WAV/eAAC+/AC3/FLAC player\n- Organizer\n- Image/video editor\n- Document editor (Word, Excel, PowerPoint, PDF)\n- Google Search, Maps, Gmail,\nYouTube, Calendar, Google Talk, Picasa\n- Voice memo/dial/commands\n- Predictive text input (Swype)",
+            "Java": "Yes, via Java MIDP emulator",
+            "Chipset": "Qualcomm Snapdragon 800 (N9005, N9002)/ Exynos 5 Octa 5420 (N9000)",
+            "Colors": "Black, White, Pink",
+            "Radio": "No",
+            "GPU": "Adreno 330 (N9005, N9002)/ Mali-T628 MP6 (N9000)",
+            "Messaging": "SMS(threaded view), MMS, Email, Push Mail, IM, RSS",
+            "Sensors": "Accelerometer, gyro, proximity, compass, barometer, temperature, humidity, gesture",
+            "GPS": "Yes, with A-GPS support and GLONASS",
+            "OS": "Android OS, v4.3 (Jelly Bean)",
+            "CPU": "Quad-core 2.3 GHz Krait 400 (N9005, N9002)/ Quad-core 1.9 GHz Cortex-A15 & quad-core 1.3 GHz Cortex-A7 (N9000)",
+            "Browser": "HTML5"
+        },
+        "Battery": {
+            "": "Li-Ion 3200 mAh battery",
+            "Talk time": "(2G) / Up to 21 h (3G)",
+            "Stand-by": "(2G) / Up to 420 h (3G)"
+        },
+        "Misc": {
+            "Price group": "",
+            "SAR EU": "0.29 W/kg (head)   0.36 W/kg (body)"
+        },
+        "General": {
+            "": "LTE 700 / 1900 / 2100 - N900W8",
+            "Status": "Available. Released 2013, September",
+            "2G Network": "GSM 850 / 900 / 1800 / 1900 - all models",
+            "3G Network": "HSDPA 850 / 900 / 1900 / 2100 - N9005, N9002, N9006HSDPA 850 / 1900 / 2100 - N900W8",
+            "4G Network": "LTE 800 / 850 / 900 / 1800 / 2100 / 2600 - N9005",
+            "SIM": "Micro-SIM",
+            "Announced": "2013, September"
+        },
+        "Camera": {
+            "Primary": "13 MP, 4128 x 3096 pixels, autofocus, LED flash, check quality",
+            "Video": "Yes, 2160p@30fps, 1080p@60fps (N9005, N9002)/ 1080p (N9000), check quality",
+            "Features": "Dual Shot, Simultaneous HD video and image recording, geo-tagging, touch focus, face and smile detection, image stabilization, panorama, HDR",
+            "Secondary": "Yes, 2 MP, 1080p@30fps"
+        },
+        "Memory": {
+            "Internal": "16/32/64 GB storage, 3 GB RAM",
+            "Card slot": "microSD, up to 64 GB"
+        },
+        "Data": {
+            "GPRS": "Yes",
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, DLNA, Wi-Fi Direct, Wi-Fi hotspot",
+            "Infrared port": "Yes",
+            "Bluetooth": "Yes, v4.0 with A2DP, LE, EDR",
+            "EDGE": "Yes",
+            "NFC": "Yes",
+            "Speed": "HSDPA, 42 Mbps; HSUPA; LTE, Cat4, 50 Mbps UL, 150 Mbps DL",
+            "USB": "Yes, microUSB v3.0 (MHL 2), USB Host"
+        },
+        "Display": {
+            "Multitouch": "Yes",
+            "Type": "Super AMOLED capacitive touchscreen, 16M colors",
+            "Size": "1080 x 1920 pixels, 5.7 inches (~386 ppi pixel density)"
+        }
+    },
+    "canonical_name": "Samsung Galaxy Note 3",
+    "maker": "Samsung",
+    "name": "Galaxy Note 3"
+}, {
+    "py/object": "__main__.Phone",
+    "description": "Also known as Samsung S3330, Samsung Ch@t 322 DUOS S3332 with dual SIM card support.",
+    "url": "http://gsmarena.com/samsung_ch@t_333-5634.php",
+    "fields": {
+        "Body": {
+            "Dimensions": "112.1 x 61.1 x 11.7 mm (4.41 x 2.41 x 0.46 in)",
+            "Weight": "99.5 g (3.49 oz)",
+            "Keyboard": "QWERTY"
+        },
+        "Sound": {
+            "Loudspeaker": "Yes",
+            "3.5mm jack": "Yes",
+            "Alert types": "Vibration, MP3 ringtones"
+        },
+        "Features": {
+            "": "- SNS integration\n- MP3/WAV/WMA/eAAC+ player\n- MP4/H.264/h.263 player\n- Organizer\n- Voice memo\n- Predictive text input",
+            "Java": "Yes",
+            "Colors": "Black, White",
+            "Radio": "TBD",
+            "Messaging": "SMS(threaded view), MMS, Email, Push Email, IM",
+            "Games": "Yes + downloadable",
+            "GPS": "No",
+            "CPU": "208 MHz",
+            "Browser": "WAP 2.0/xHTML, HTML"
+        },
+        "Battery": {
+            "": "Li-Ion 1200 mAh battery",
+            "Talk time": "Up to 15 h",
+            "Stand-by": "Up to 650 h"
+        },
+        "Misc": {
+            "SAR US": "0.82 W/kg (head)   0.56 W/kg (body)",
+            "SAR EU": "0.83 W/kg (head)   1.09 W/kg (body)"
+        },
+        "General": {
+            "": "GSM 850 / 900 / 1800 / 1900 - GT-S3330",
+            "2G Network": "GSM 850 / 900 / 1800 / 1900 - GT-S3332 (SIM 1 & SIM 2)",
+            "Announced": "2013, July",
+            "SIM": "Optional Dual SIM (Mini-SIM, dual stand-by)",
+            "Status": "Available. Released 2013, August"
+        },
+        "Camera": {
+            "Video": "Yes, QVGA",
+            "Primary": "2 MP, 1600x1200 pixels",
+            "Secondary": "No"
+        },
+        "Memory": {
+            "Call records": "Yes",
+            "Internal": "28 MB",
+            "Phonebook": "Yes",
+            "Card slot": "microSD, up to 32 GB"
+        },
+        "Data": {
+            "GPRS": "Yes",
+            "EDGE": "Yes",
+            "WLAN": "No",
+            "USB": "Yes, microUSB",
+            "Bluetooth": "Yes, with A2DP"
+        },
+        "Display": {
+            "Type": "TFT, 256K colors",
+            "Size": "-, 2.4 inches"
+        }
+    },
+    "canonical_name": "Samsung Ch@t 333",
+    "maker": "Samsung",
+    "name": "Ch@t 333"
+}, {
+    "py/object": "__main__.Phone",
+    "description": "Available as:\nSamsung Galaxy Prevail 2 for Boost Mobile\nSamsung Galaxy Ring M840 for Virgin Mobile",
+    "url": "http://gsmarena.com/samsung_galaxy_prevail_2-5597.php",
+    "fields": {
+        "Body": {
+            "Dimensions": "122 x 63.5 x 12.7 mm (4.80 x 2.5 x 0.5 in)",
+            "Weight": "130.4 g (4.59 oz)"
+        },
+        "Sound": {
+            "Loudspeaker": "Yes",
+            "3.5mm jack": "Yes",
+            "Alert types": "Vibration; MP3, WAV ringtones"
+        },
+        "Features": {
+            "": "- MP4/H.264/H.263 player\n- MP3/WAV/eAAC+ player\n- Organizer\n- Document viewer\n- Google Search, Maps, Gmail,\nYouTube, Calendar, Google Talk, Picasa\n- Voice memo/dial\n- Predictive text input (Swype)",
+            "Java": "Yes, via Java MIDP emulator",
+            "Chipset": "Qualcomm MSM8655 Snapdragon",
+            "Colors": "White, Gray",
+            "Radio": "No",
+            "GPU": "Adreno 205",
+            "Messaging": "SMS(threaded view), MMS, Email, Push Email, IM",
+            "Sensors": "Accelerometer, proximity",
+            "GPS": "Yes, with A-GPS support",
+            "OS": "Android OS, v4.1 (Jelly Bean)",
+            "CPU": "1.4 GHz",
+            "Browser": "HTML"
+        },
+        "Battery": {
+            "": "Li-Ion 1750 mAh battery",
+            "Talk time": "Up to 8 h",
+            "Stand-by": "Up to 490 h"
+        },
+        "Misc": {
+            "SAR US": "0.60 W/kg (head)   1.34 W/kg (body)",
+            "Price group": ""
+        },
+        "General": {
+            "Status": "Available. Released 2013, July",
+            "2G Network": "CDMA 800 / 1900",
+            "3G Network": "CDMA2000 1xEV-DO",
+            "Announced": "2013, July",
+            "SIM": "Mini-SIM"
+        },
+        "Camera": {
+            "Primary": "5 MP, 2592\u04451944 pixels, autofocus, LED flash",
+            "Video": "Yes",
+            "Features": "Geo-tagging, touch focus, smile detection, panorama",
+            "Secondary": "Yes, 1.3 MP"
+        },
+        "Memory": {
+            "Internal": "4 GB, 512 MB RAM",
+            "Card slot": "microSD, up to 64 GB, 2 GB included"
+        },
+        "Data": {
+            "GPRS": "No",
+            "WLAN": "Wi-Fi 802.11 b/g",
+            "USB": "Yes, microUSB v2.0",
+            "Bluetooth": "Yes, v4.0 with A2DP",
+            "EDGE": "No",
+            "Speed": "EV-DO Rev. A, up to 3.1 Mbps"
+        },
+        "Display": {
+            "Multitouch": "Yes",
+            "Type": "Capacitive touchscreen",
+            "Size": "480 x 800 pixels, 4.0 inches (~233 ppi pixel density)"
+        }
+    },
+    "canonical_name": "Samsung Galaxy Prevail 2",
+    "maker": "Samsung",
+    "name": "Galaxy Prevail 2"
+}, {
+    "py/object": "__main__.Phone",
+    "description": "For T-Mobile.",
+    "url": "http://gsmarena.com/samsung_gravity_q_t289-5599.php",
+    "fields": {
+        "Body": {
+            "Dimensions": "112.5 x 59.7 x 14.2 mm (4.43 x 2.35 x 0.56 in)",
+            "Weight": "118.8 g (4.16 oz)",
+            "Keyboard": "QWERTY"
+        },
+        "Sound": {
+            "Loudspeaker": "Yes",
+            "3.5mm jack": "Yes",
+            "Alert types": "Vibration; MP3, WAV ringtones"
+        },
+        "Features": {
+            "": "- MP4/H.264/H.263 player\n- MP3/WAV/AAC+ player\n- Organizer\n- Image/video editor\n- Document viewer\n- Voice memo\n- Predictive text input (Swype)",
+            "Java": "Yes",
+            "Colors": "Black",
+            "Radio": "No",
+            "Messaging": "SMS(threaded view), MMS, Email",
+            "Games": "Yes",
+            "Sensors": "Accelerometer",
+            "GPS": "No",
+            "CPU": "416 MHz",
+            "Browser": "HTML"
+        },
+        "Battery": {
+            "": "Li-Ion 1000 mAh battery",
+            "Talk time": "Up to 5 h",
+            "Stand-by": "Up to 360 h"
+        },
+        "Misc": {
+            "SAR US": "0.96 W/kg (head)   0.88 W/kg (body)",
+            "Price group": ""
+        },
+        "General": {
+            "Status": "Available. Released 2013, July",
+            "2G Network": "GSM 850 / 900 / 1800 / 1900",
+            "3G Network": "HSDPA 850 / 1700 / 1900 / 2100",
+            "Announced": "2013, July",
+            "SIM": "Mini-SIM"
+        },
+        "Camera": {
+            "Primary": "2 MP, 1600x1200 pixels",
+            "Video": "Yes",
+            "Features": "Smile detection, panorama",
+            "Secondary": "No"
+        },
+        "Memory": {
+            "Call records": "Yes",
+            "Internal": "256 MB ROM, 128 MB RAM",
+            "Phonebook": "Yes",
+            "Card slot": "microSD, up to 32 GB"
+        },
+        "Data": {
+            "GPRS": "Yes",
+            "WLAN": "No",
+            "USB": "Yes",
+            "Bluetooth": "Yes, with A2DP",
+            "EDGE": "Yes",
+            "Speed": "HSDPA, HSUPA"
+        },
+        "Display": {
+            "Multitouch": "Yes",
+            "Type": "TFT touchscreen, 256K colors",
+            "Size": "240 x 320 pixels, 3.0 inches (~133 ppi pixel density)"
+        }
+    },
+    "canonical_name": "Samsung Gravity Q T289",
+    "maker": "Samsung",
+    "name": "Gravity Q T289"
+}, {
+    "py/object": "__main__.Phone",
+    "description": "For Sprint\nAlso known as Samsung ATIV S neo SPH-I800",
+    "url": "http://gsmarena.com/samsung_ativ_s_neo-5548.php",
+    "fields": {
+        "Body": {
+            "Dimensions": "135.4 x 69.1 x 9.1 mm (5.33 x 2.72 x 0.36 in)",
+            "Weight": "144 g (5.08 oz)"
+        },
+        "Sound": {
+            "Loudspeaker": "Yes",
+            "3.5mm jack": "Yes",
+            "Alert types": "Vibration, MP3 ringtones"
+        },
+        "Features": {
+            "": "- SNS integration\n- MP4/WMV/H.264/H.263 player\n- MP3/WMA/eAAC+ player\n- Document viewer\n- Photo viewer/editor\n- Organizer\n- Voice memo/dial\n- Predictive text input",
+            "Java": "No",
+            "Colors": "Gray",
+            "Radio": "No",
+            "Messaging": "SMS (threaded view), MMS, Email, Push Email, IM",
+            "Sensors": "Accelerometer, proximity",
+            "GPS": "Yes, with A-GPS support",
+            "OS": "Microsoft Windows Phone 8",
+            "CPU": "Dual-core 1.4 GHz Krait",
+            "Browser": "HTML5"
+        },
+        "Battery": {
+            "": "Li-Ion 2000 mAh battery",
+            "Talk time": "(2G) / Up to 15 h (3G)",
+            "Stand-by": "(2G) / Up to 330 h (3G)",
+            "Music play": "Up to 70 h"
+        },
+        "Misc": {
+            "SAR US": "0.91 W/kg (head)   1.52 W/kg (body)",
+            "Price group": ""
+        },
+        "General": {
+            "": "HSDPA 1900 / 2100",
+            "Status": "Available. Released 2013, August",
+            "2G Network": "CDMA 800 / 1900",
+            "3G Network": "CDMA2000 1xEV-DO",
+            "4G Network": "LTE 1900",
+            "SIM": "Yes",
+            "Announced": "2013, June"
+        },
+        "Camera": {
+            "Primary": "8 MP, 3264 x 2448 pixels, autofocus, LED flash",
+            "Video": "Yes",
+            "Features": "Geo-tagging, touch focus, HDR",
+            "Secondary": "Yes, 1.2 MP"
+        },
+        "Memory": {
+            "Internal": "16 GB, 1 GB RAM",
+            "Card slot": "microSD, up to 64 GB"
+        },
+        "Data": {
+            "GPRS": "Yes",
+            "WLAN": "Yes",
+            "USB": "Yes, microUSB v2.0",
+            "Bluetooth": "Yes",
+            "EDGE": "Yes",
+            "NFC": "Yes",
+            "Speed": "EV-DO Rev. A, up to 3.1 Mbps; HSPA; LTE"
+        },
+        "Display": {
+            "Multitouch": "Yes",
+            "Type": "TFT capacitive touchscreen, 16M colors",
+            "Size": "720 x 1280 pixels, 4.77 inches (~308 ppi pixel density)"
+        }
+    },
+    "canonical_name": "Samsung ATIV S Neo",
+    "maker": "Samsung",
+    "name": "ATIV S Neo"
+}, {
+    "py/object": "__main__.Phone",
+    "description": "Also known as Samsung Galaxy S4 zoom SM-C1010, SM-C101.",
+    "url": "http://gsmarena.com/samsung_galaxy_s4_zoom-5447.php",
+    "fields": {
+        "Body": {
+            "Dimensions": "125.5 x 63.5 x 15.4 mm (4.94 x 2.5 x 0.61 in)",
+            "Weight": "208 g (7.34 oz)"
+        },
+        "Sound": {
+            "Loudspeaker": "Yes",
+            "3.5mm jack": "Yes",
+            "Alert types": "Vibration; MP3, WAV ringtones"
+        },
+        "Tests": {
+            "Loudspeaker": "Voice 73dB / Noise 66dB / Ring 75dB",
+            "Battery life": "Endurance rating 61h",
+            "Audio quality": "Noise -91.5dB / Crosstalk -90.5dB",
+            "Display": "Contrast ratio: Infinite (nominal) / 3.118:1 (sunlight)",
+            "Camera": "Photo / Video"
+        },
+        "Features": {
+            "": "- S-Voice natural language commands and dictation\n- Dropbox (50 GB storage)\n- Active noise cancellation with dedicated mic\n- TV-out (via MHL A/V link)\n- SNS integration\n- MP4/DivX/XviD/WMV/H.264/H.263 player\n- MP3/WAV/eAAC+/AC3/FLAC player\n- Organizer\n- Image/video editor\n- Document viewer\n- Google Search, Maps, Gmail,\nYouTube, Calendar, Google Talk, Picasa\n- Voice memo/dial/commands\n- Predictive text input (Swype)",
+            "Java": "Yes, via Java MIDP emulator",
+            "Chipset": "Pega-Dual +XMM6262",
+            "Colors": "White, Dynamic Black",
+            "Radio": "No",
+            "GPU": "Mali-400",
+            "Messaging": "SMS(threaded view), MMS, Email, Push Mail, IM, RSS",
+            "Sensors": "Accelerometer, gyro, proximity, compass",
+            "GPS": "Yes, with A-GPS support and GLONASS",
+            "OS": "Android OS, v4.2.2 (Jelly Bean)",
+            "CPU": "Dual-core 1.5 GHz Cortex-A9",
+            "Browser": "HTML5"
+        },
+        "Battery": {
+            "": "Li-Ion 2330 mAh battery",
+            "Talk time": "(2G) / Up to 13 h (3G)",
+            "Stand-by": "(2G) / Up to 570 h (3G)",
+            "Music play": "Up to 46 h"
+        },
+        "Misc": {
+            "SAR US": "0.35 W/kg (head)   1.05 W/kg (body)",
+            "Price group": "",
+            "SAR EU": "0.14 W/kg (head)   0.20 W/kg (body)"
+        },
+        "General": {
+            "Status": "Available. Released 2013, July",
+            "2G Network": "GSM 850 / 900 / 1800 / 1900 - all versions",
+            "3G Network": "HSDPA 850 / 900 / 1900 / 2100 - all versions",
+            "4G Network": "LTE (market dependent)",
+            "Announced": "2013, June",
+            "SIM": "Micro-SIM"
+        },
+        "Camera": {
+            "Primary": "16 MP, autofocus, Xenon flash, check quality",
+            "Video": "Yes, 1080p@30fps, check quality",
+            "Features": "1/2.33'' sensor size, geo-tagging, touch focus, face and smile detection, 10x optical zoom (24-240mm), optical image stabilization, HDR, panorama",
+            "Secondary": "Yes, 1.9 MP"
+        },
+        "Memory": {
+            "Internal": "8 GB (5 GB user available), 1.5 GB RAM",
+            "Card slot": "microSD, up to 64 GB"
+        },
+        "Data": {
+            "GPRS": "Yes",
+            "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band, Wi-Fi Direct, DLNA, Wi-Fi hotspot",
+            "Infrared port": "Yes",
+            "Bluetooth": "Yes, v4.0 with A2DP, LE",
+            "EDGE": "Yes",
+            "NFC": "Yes",
+            "Speed": "HSDPA, 21.1 Mbps; HSUPA, 5.76 Mbps; LTE, Cat3, 50 Mbps UL, 100 Mbps DL",
+            "USB": "Yes, microUSB v2.0 (MHL), USB On-the-go"
+        },
+        "Display": {
+            "Multitouch": "Yes",
+            "Protection": "Corning Gorilla Glass 3",
+            "Type": "Super AMOLED capacitive touchscreen, 16M colors",
+            "Size": "540 x 960 pixels, 4.3 inches (~256 ppi pixel density)"
+        }
+    },
+    "canonical_name": "Samsung Galaxy S4 zoom",
+    "maker": "Samsung",
+    "name": "Galaxy S4 zoom"
+}, {
+    "py/object": "__main__.Phone",
+    "description": "Also known as:\nSamsung Galaxy Ace 3 3G GT-S7270\nSamsung Galaxy Ace 3 LTE GT-S7275\nSamsung Galaxy Ace 3 GT-S7272 with dual sim card support",
+    "url": "http://gsmarena.com/samsung_galaxy_ace_3-5479.php",
+    "fields": {
+        "Body": {
+            "Dimensions": "121.2 x 62.7 x 9.8 mm (3G) / 121.2 x 62.7 x 10 mm (LTE)",
+            "Weight": "115 g (3G) / 119.5 g (LTE) (4.06 oz)"
+        },
+        "Sound": {
+            "Loudspeaker": "Yes",
+            "3.5mm jack": "Yes",
+            "Alert types": "Vibration; MP3, WAV ringtones"
+        },
+        "Features": {
+            "": "- XviD/MP4/H.264/H.263 player\n- MP3/WAV/eAAC+/FLAC player\n- Organizer\n- Document viewer\n- Image editor\n- Google Search, Maps, Gmail,\nYouTube, Calendar, Google Talk, Picasa\n- Voice memo/dial\n- Predictive text input (Swype)",
+            "Java": "Yes, via Java MIDP emulator",
+            "Chipset": "Broadcom BCM21664",
+            "Colors": "Black, White, Dark Red",
+            "Radio": "Stereo FM radio with RDS",
+            "GPU": "Broadcom VideoCore IV",
+            "Messaging": "SMS(threaded view), MMS, Email, Push Email, IM",
+            "Sensors": "Accelerometer, proximity, compass",
+            "GPS": "Yes, with A-GPS support and GLONASS",
+            "OS": "Android OS, v4.2 (Jelly Bean)",
+            "CPU": "Dual-core 1 GHz Cortex-A9 (3G) / Dual-core 1.2 GHz Cortex-A9 (LTE)",
+            "Browser": "HTML5"
+        },
+        "Battery": {
+            "": "Li-Ion 1500 (3G) / 1800 (LTE) mAh battery",
+            "Talk time": "(2G) / Up to 8 h (3G)",
+            "Stand-by": "(2G) / Up to 370 h (3G)"
+        },
+        "Misc": {
+            "SAR US": "0.67 W/kg (head)   0.45 W/kg (body)",
+            "Price group": "",
+            "SAR EU": "0.47 W/kg (head)   0.35 W/kg (body)"
+        },
+        "General": {
+            "": "HSDPA 850 / 900 / 2100 - GT-S7275",
+            "Status": "Available. Released 2013, July",
+            "2G Network": "GSM 850 / 900 / 1800 / 1900 - all versions",
+            "3G Network": "HSDPA 900 / 2100 - GT-S7270, GT-S7272",
+            "4G Network": "LTE 800 / 900 / 1800 / 2600 - GT-S7275",
+            "SIM": "Optional Dual SIM (Mini-SIM)",
+            "Announced": "2013, June"
+        },
+        "Camera": {
+            "Primary": "5 MP, 2592x1944 pixels, autofocus, LED flash",
+            "Video": "Yes, 720p@30fps",
+            "Features": "Geo-tagging, face and smile detection, panorama",
+            "Secondary": "Yes, VGA"
+        },
+        "Memory": {
+            "Internal": "4 GB (3G) / 8 GB (LTE), 1 GB RAM",
+            "Card slot": "microSD, up to 64 GB"
+        },
+        "Data": {
+            "GPRS": "Yes",
+            "WLAN": "Wi-Fi 802.11 b/g/n, Wi-Fi Direct, Wi-Fi hotspot",
+            "USB": "Yes, microUSB v2.0",
+            "Bluetooth": "Yes, v4.0 with A2DP",
+            "EDGE": "Yes",
+            "NFC": "Yes (LTE model only)",
+            "Speed": "HSDPA, 14.4 Mbps (3G) / 42.2 Mbps (LTE); HSUPA, 5.76 Mbps; LTE, Cat4, 50 Mbps UL, 150 Mbps DL"
+        },
+        "Display": {
+            "Multitouch": "Yes",
+            "Type": "TFT capacitive touchscreen, 16M colors",
+            "Size": "480 x 800 pixels, 4.0 inches (~233 ppi pixel density)"
+        }
+    },
+    "canonical_name": "Samsung Galaxy Ace 3",
+    "maker": "Samsung",
+    "name": "Galaxy Ace 3"
+}, {
+    "py/object": "__main__.Phone",
+    "description": "Also known as Samsung I9190 Galaxy S IV mini.\nAvailable as Samsung I9192 Galaxy S4 mini with dual SIM card support.",
+    "url": "http://gsmarena.com/samsung_i9190_galaxy_s4_mini-5375.php",
+    "fields": {
+        "Body": {
+            "Dimensions": "124.6 x 61.3 x 8.9 mm (4.91 x 2.41 x 0.35 in)",
+            "Weight": "107 g (3.77 oz)"
+        },
+        "Sound": {
+            "Loudspeaker": "Yes",
+            "3.5mm jack": "Yes",
+            "Alert types": "Vibration; MP3, WAV ringtones"
+        },
+        "Tests": {
+            "Loudspeaker": "Voice 66dB / Noise 64dB / Ring 75dB",
+            "Battery life": "Endurance rating 54h",
+            "Audio quality": "Noise -93.5dB / Crosstalk -86.2dB",
+            "Display": "Contrast ratio: Infinite (nominal), 3.127 (sunlight)",
+            "Camera": "Photo / Video"
+        },
+        "Features": {
+            "": "- SNS integration\n- MP4/DivX/XviD/WMV/H.264/H.263 player\n- MP3/WAV/eAAC+/AC3/FLAC player\n- Organizer\n- Image/video editor\n- Document viewer\n- Google Search, Maps, Gmail,\nYouTube, Calendar, Google Talk, Picasa\n- Voice memo/dial/commands\n- Predictive text input (Swype)",
+            "Java": "Yes, via Java MIDP emulator",
+            "Chipset": "Qualcomm MSM8930 Snapdragon 400",
+            "Colors": "White Frost, Black Mist",
+            "Radio": "Stereo FM radio with RDS/ SGH-I257M model with no radio",
+            "GPU": "Adreno 305",
+            "Messaging": "SMS(threaded view), MMS, Email, Push Mail, IM, RSS",
+            "Sensors": "Accelerometer, gyro, proximity, compass",
+            "GPS": "Yes, with A-GPS support and GLONASS",
+            "OS": "Android OS, v4.2.2 (Jelly Bean)",
+            "CPU": "Dual-core 1.7 GHz Krait",
+            "Browser": "HTML5"
+        },
+        "Battery": {
+            "": "Li-Ion 1900 mAh battery",
+            "Talk time": "(2G) / Up to 12 h (3G)",
+            "Stand-by": "(2G) / Up to 300 h (3G)",
+            "Music play": "Up to 49 h"
+        },
+        "Misc": {
+            "Price group": "",
+            "SAR EU": "0.33 W/kg (head)   0.32 W/kg (body)"
+        },
+        "General": {
+            "": "GSM 850 / 900 / 1800 / 1900 - GT-I9192 (SIM 1 & SIM 2)",
+            "Status": "Available. Released 2013, July",
+            "2G Network": "GSM 850 / 900 / 1800 / 1900 - all versions",
+            "3G Network": "HSDPA 850 / 900 / 1900 / 2100 - GT-I9190, GT-I9195",
+            "4G Network": "LTE - GT-I9195",
+            "SIM": "Optional Dual SIM",
+            "Announced": "2013, May"
+        },
+        "Camera": {
+            "Primary": "8 MP, 3264 x 2448 pixels, autofocus, LED flash, check quality",
+            "Video": "Yes, 1080p@30fps, check quality",
+            "Features": "Geo-tagging, touch focus, face detection, HDR, panorama",
+            "Secondary": "Yes, 1.9 MP"
+        },
+        "Memory": {
+            "Internal": "8 GB (5 GB user available), 1.5 GB RAM",
+            "Card slot": "microSD, up to 64 GB"
+        },
+        "Data": {
+            "GPRS": "Yes",
+            "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band, DLNA, Wi-Fi Direct, Wi-Fi hotspot",
+            "Infrared port": "Yes",
+            "Bluetooth": "Yes, v4.0 with A2DP, LE, EDR",
+            "EDGE": "Yes",
+            "NFC": "Yes (GT-I9195 model only)",
+            "Speed": "HSDPA, 42 Mbps (LTE model); HSDPA, 21.1 Mbps (3G model); HSUPA, 5.76 Mbps; LTE, Cat3, 50 Mbps UL, 100 Mbps DL",
+            "USB": "Yes, microUSB v2.0"
+        },
+        "Display": {
+            "Multitouch": "Yes",
+            "Protection": "Corning Gorilla Glass 2",
+            "Type": "Super AMOLED capacitive touchscreen, 16M colors",
+            "Size": "540 x 960 pixels, 4.3 inches (~256 ppi pixel density)"
+        }
+    },
+    "canonical_name": "Samsung I9190 Galaxy S4 mini",
+    "maker": "Samsung",
+    "name": "I9190 Galaxy S4 mini"
+}, {
+    "py/object": "__main__.Phone",
+    "description": "Also available as Samsung I537 for AT&T.",
+    "url": "http://gsmarena.com/samsung_i9295_galaxy_s4_active-5446.php",
+    "fields": {
+        "Body": {
+            "": "- IP67 certified - dust and water resistant\n- Water resistant up to 1 meter and 30 minutes",
+            "Dimensions": "139.7 x 71.3 x 9.1 mm (5.5 x 2.81 x 0.36 in)",
+            "Weight": "153 g (5.40 oz)"
+        },
+        "Sound": {
+            "Loudspeaker": "Yes",
+            "3.5mm jack": "Yes",
+            "Alert types": "Vibration; MP3, WAV ringtones"
+        },
+        "Tests": {
+            "Loudspeaker": "Voice 72dB / Noise 66dB / Ring 78dB",
+            "Battery life": "Endurance rating 57h",
+            "Audio quality": "Noise -96.1dB / Crosstalk -96.0dB",
+            "Display": "Contrast ratio: 1046:1 (nominal), 2.022 (sunlight)",
+            "Camera": "Photo / Video"
+        },
+        "Features": {
+            "": "- S-Voice natural language commands and dictation\n- Smart stay, Smart pause, Smart scroll\n- Air gestures\n- Dropbox (50 GB storage)\n- Active noise cancellation with dedicated mic\n- TV-out (via MHL 2 A/V link)\n- SNS integration\n- MP4/DivX/XviD/WMV/H.264/H.263 player\n- MP3/WAV/eAAC+/AC3/FLAC player\n- Organizer\n- Image/video editor\n- Document viewer (Word, Excel, PowerPoint, PDF)\n- Google Search, Maps, Gmail,\nYouTube, Calendar, Google Talk, Picasa\n- Voice memo/dial/commands\n- Predictive text input (Swype)",
+            "Java": "Yes, via Java MIDP emulator",
+            "Chipset": "Qualcomm APQ8064T Snapdragon 600",
+            "Colors": "Urban Grey, Dive Blue, Orange Flare",
+            "Radio": "No",
+            "GPU": "Adreno 320",
+            "Messaging": "SMS(threaded view), MMS, Email, Push Mail, IM, RSS",
+            "Sensors": "Accelerometer, gyro, proximity, compass, barometer, gesture",
+            "GPS": "Yes, with A-GPS support and GLONASS",
+            "OS": "Android OS, v4.2.2 (Jelly Bean)",
+            "CPU": "Quad-core 1.9 GHz Krait 300",
+            "Browser": "HTML5"
+        },
+        "Battery": {
+            "": "Li-Ion 2600 mAh battery",
+            "Talk time": "Up to 17 h",
+            "Stand-by": "Up to 312 h"
+        },
+        "Misc": {
+            "SAR US": "0.55 W/kg (head)   0.75 W/kg (body)",
+            "Price group": "",
+            "SAR EU": "0.26 W/kg (head)   0.36 W/kg (body)"
+        },
+        "General": {
+            "": "LTE 700 / 850 / 1700 / 1900 / 2100 / 2600 - SGH-I537",
+            "Status": "Available. Released 2013, June",
+            "2G Network": "GSM 850 / 900 / 1800 / 1900",
+            "3G Network": "HSDPA 850 / 900 / 1900 / 2100",
+            "4G Network": "LTE 800 / 850 / 900 / 1800 / 2100 / 2600",
+            "SIM": "Micro-SIM",
+            "Announced": "2013, June"
+        },
+        "Camera": {
+            "Primary": "8 MP, 3264 x 2448 pixels, autofocus, LED flash, check quality",
+            "Video": "Yes, 1080p@30fps, check quality",
+            "Features": "Simultaneous HD video and image recording, geo-tagging, touch focus, face and smile detection, image stabilization, HDR, Aqua mode",
+            "Secondary": "Yes, 2 MP,1080p@30fps"
+        },
+        "Memory": {
+            "Internal": "16 GB (11.2 GB user available), 2 GB RAM",
+            "Card slot": "microSD, up to 64 GB"
+        },
+        "Data": {
+            "GPRS": "Class 33",
+            "WLAN": "Wi-Fi 802.11 a/b/g/n/ac, dual-band, Wi-Fi Direct, DLNA, Wi-Fi hotspot",
+            "Infrared port": "Yes",
+            "Bluetooth": "Yes, v4.0 with A2DP, EDR, LE",
+            "EDGE": "Class 33",
+            "NFC": "Yes",
+            "Speed": "HSDPA, 42 Mbps; HSUPA, 5.76 Mbps; LTE, Cat3, 50 Mbps UL, 100 Mbps DL",
+            "USB": "Yes, microUSB v2.0 (MHL 2), USB On-the-go, USB Host"
+        },
+        "Display": {
+            "": "- TouchWiz UI",
+            "Multitouch": "Yes",
+            "Protection": "Corning Gorilla Glass 2",
+            "Type": "TFT capacitive touchscreen, 16M colors",
+            "Size": "1080 x 1920 pixels, 5.0 inches (~441 ppi pixel density)"
+        }
+    },
+    "canonical_name": "Samsung I9295 Galaxy S4 Active",
+    "maker": "Samsung",
+    "name": "I9295 Galaxy S4 Active"
+}, {
+    "py/object": "__main__.Phone",
+    "description": "Tablet with support for GSM voice communication, SMS, and MMS (SM-T311/T315)\nTablet with no support for GSM voice communication, SMS, and MMS (SM-T310)\nAlso known as:\nSamsung Galaxy Tab 3 8.0 Wi-Fi\nSamsung Galaxy Tab 3 8.0 3G\nSamsung Galaxy Tab 3 8.0 LTE",
+    "url": "http://gsmarena.com/samsung_galaxy_tab_3_8_0-5456.php",
+    "fields": {
+        "Body": {
+            "Dimensions": "209.8 x 123.8 x 7.4 mm (8.26 x 4.87 x 0.29 in)",
+            "Weight": "314 g (11.08 oz)"
+        },
+        "Sound": {
+            "": "- Dolby Surround sound enhancement",
+            "3.5mm jack": "Yes",
+            "Alert types": "Vibration, MP3 ringtones",
+            "Loudspeaker": "Yes, with stereo speakers"
+        },
+        "Tests": {
+            "Loudspeaker": "Voice 71dB / Noise 66dB / Ring 75dB",
+            "Camera": "Photo / Video",
+            "Audio quality": "Noise -91.4dB / Crosstalk -91.0dB",
+            "Display": "Contrast ratio: 989 (nominal)"
+        },
+        "Features": {
+            "": "- SNS integration\n- MP4/DivX/Xvid/FLV/MKV/H.264/H.263 player\n- MP3/WAV/eAAC+/Flac player\n- TV-out (via MHL A/V link)\n- Organizer\n- Image/video editor\n- Document viewer\n- Google Search, Maps, Gmail,\nYouTube, Calendar, Google Talk, Picasa\n- Voice memo/dial\n- Predictive text input (Swype)",
+            "Java": "Yes, via Java MIDP emulator",
+            "Chipset": "Exynos 4212",
+            "Colors": "White, Gold",
+            "Radio": "No",
+            "GPU": "Mali-400MP",
+            "Messaging": "SMS(threaded view), MMS, Email, Push Email, IM",
+            "Sensors": "Accelerometer, compass, proximity (3G/LTE models only)",
+            "GPS": "Yes, with A-GPS support and GLONASS",
+            "OS": "Android OS, v4.2.2 (Jelly Bean)",
+            "CPU": "Dual-core 1.5 GHz",
+            "Browser": "HTML5"
+        },
+        "Battery": {
+            "": "Non-removable Li-Ion 4450 mAh battery",
+            "Talk time": "Up to 11 h (multimedia)",
+            "Stand-by": "",
+            "Music play": "Up to 96 h"
+        },
+        "Misc": {
+            "SAR US": "0.83 W/kg (body)",
+            "Price group": "",
+            "SAR EU": "0.55 W/kg (body)"
+        },
+        "General": {
+            "Status": "Available. Released 2013, July",
+            "2G Network": "GSM 850 / 900 / 1800 / 1900 - SM-T3110, SM-T315",
+            "3G Network": "HSDPA 850 / 900 / 1900 / 2100 - SM-T311, SM-T315",
+            "4G Network": "LTE 800 / 850 / 900 / 1800 / 2100 / 2600 - SM-T315",
+            "Announced": "2013, June",
+            "SIM": "Micro-SIM"
+        },
+        "Camera": {
+            "Primary": "5 MP, 2560\u04451920 pixels, autofocus, check quality",
+            "Video": "Yes, 720p@30fps, check quality",
+            "Features": "Geo-tagging, touch focus, face detection",
+            "Secondary": "Yes, 1.3 MP"
+        },
+        "Memory": {
+            "Internal": "16/32 GB, 1.5 GB RAM",
+            "Card slot": "microSD, up to 64 GB"
+        },
+        "Data": {
+            "GPRS": "Yes",
+            "WLAN": "Wi-Fi 802.11 a/b/g/n, dual-band, DLNA, Wi-Fi Direct, Wi-Fi hotspot",
+            "Infrared port": "Yes",
+            "Bluetooth": "Yes, v4.0 with A2DP",
+            "EDGE": "Yes",
+            "Speed": "HSDPA, 21 Mbps; HSUPA, 5.76 Mbps; LTE, Cat3, 50 Mbps UL, 100 Mbps DL",
+            "USB": "Yes, microUSB v2.0 (MHL), USB Host"
+        },
+        "Display": {
+            "Multitouch": "Yes",
+            "Type": "TFT capacitive touchscreen, 16M colors",
+            "Size": "800 x 1280 pixels, 8.0 inches (~189 ppi pixel density)"
+        }
+    },
+    "canonical_name": "Samsung Galaxy Tab 3 8.0",
+    "maker": "Samsung",
+    "name": "Galaxy Tab 3 8.0"
+}, {
+    "py/object": "__main__.Phone",
+    "description": "Tablet with support for GSM voice communication, SMS, and MMS.",
+    "url": "http://gsmarena.com/samsung_galaxy_tab_3_10_1_p5220-5491.php",
+    "fields": {
+        "Body": {
+            "Dimensions": "243.1 x 176.1 x 8 mm (9.57 x 6.93 x 0.31 in)",
+            "Weight": "510 g (1.12 lb)"
+        },
+        "Sound": {
+            "": "- Dolby Surround sound enhancement",
+            "3.5mm jack": "Yes",
+            "Alert types": "Vibration, MP3 ringtones",
+            "Loudspeaker": "Yes, with stereo speakers"
+        },
+        "Tests": {
+            "Loudspeaker": "Voice 71dB / Noise 73dB / Ring 75dB",
+            "Camera": "Photo / Video",
+            "Audio quality": "Noise -91.5dB / Crosstalk -90.5dB",
+            "Display": "Contrast ratio: 917 (nominal)"
+        },
+        "Features": {
+            "": "- SNS integration\n- TV-out\n- MP4/DivX/Xvid/FLV/MKV/H.264/H.263 player\n- MP3/WAV/eAAC+/Flac player\n- Organizer\n- Image/video editor\n- Document editor/viewer\n- Google Search, Maps, Gmail,\nYouTube, Calendar, Google Talk, Picasa\n- Voice memo/dial\n- Predictive text input (Swype)",
+            "Java": "Yes, via Java MIDP emulator",
+            "Chipset": "Intel Atom Z2560",
+            "Colors": "White, Gold Brown, Garnet Red, Midnight Black",
+            "Radio": "No",
+            "GPU": "PowerVR SGX544MP2",
+            "Messaging": "SMS(threaded view), MMS, Email, Push Email, IM",
+            "Sensors": "Accelerometer, compass",
+            "GPS": "Yes, with A-GPS support and GLONASS",
+            "OS": "Android OS, v4.2.2 (Jelly Bean)",
+            "CPU": "Dual-core 1.6 GHz",
+            "Browser": "HTML5"
+        },
+        "Battery": {
+            "": "Non-removable Li-Po 6800 mAh battery",
+            "Talk time": "Up to 9 h (multimedia) (2G) / Up to 40 h (3G)",
+            "Stand-by": "",
+            "Music play": "Up to 140 h"
+        },
+        "Misc": {
+            "SAR US": "1.54 W/kg (body)",
+            "Price group": "",
+            "SAR EU": "0.99 W/kg (body)"
+        },
+        "General": {
+            "Status": "Available. Released 2013, Q3",
+            "2G Network": "GSM 850 / 900 / 1800 / 1900",
+            "3G Network": "HSDPA 850 / 900 / 1900 / 2100",
+            "4G Network": "LTE 800 / 850 / 900 / 1800 / 2100 / 2600",
+            "Announced": "2013, June",
+            "SIM": "Micro-SIM"
+        },
+        "Camera": {
+            "Primary": "3.15 MP, 2048x1536 pixels, check quality",
+            "Video": "Yes, 720p, check quality",
+            "Features": "Geo-tagging",
+            "Secondary": "Yes, 1.3 MP"
+        },
+        "Memory": {
+            "Internal": "16/32 GB, 1 GB RAM",
+            "Card slot": "microSD, up to 64 GB"
+        },
+        "Data": {
+            "GPRS": "Yes",
+            "WLAN": "Wi-Fi 802.11 a/b/g/n, Wi-Fi Direct, dual-band, Wi-Fi hotspot",
+            "Infrared port": "Yes",
+            "Bluetooth": "Yes, v4.0 with A2DP",
+            "EDGE": "Yes",
+            "Speed": "HSDPA, 42 Mbps; HSUPA, 5.76 Mbps; LTE, Cat3, 50 Mbps UL, 100 Mbps DL",
+            "USB": "Yes, microUSB v2.0 (MHL 1.2), USB Host"
+        },
+        "Display": {
+            "": "- TouchWiz UX UI",
+            "Multitouch": "Yes",
+            "Type": "TFT capacitive touchscreen, 16M colors",
+            "Size": "1280 x 800 pixels, 10.1 inches (~149 ppi pixel density)"
+        }
+    },
+    "canonical_name": "Samsung Galaxy Tab 3 10.1 P5220",
+    "maker": "Samsung",
+    "name": "Galaxy Tab 3 10.1 P5220"
+}, {
+    "py/object": "__main__.Phone",
+    "description": "Tablet with support for GSM voice communication, SMS, and MMS.",
+    "url": "http://gsmarena.com/samsung_galaxy_tab_3_10_1_p5200-5490.php",
+    "fields": {
+        "Body": {
+            "Dimensions": "243.1 x 176.1 x 8 mm (9.57 x 6.93 x 0.31 in)",
+            "Weight": "510 g (1.12 lb)"
+        },
+        "Sound": {
+            "": "- Dolby Surround sound enhancement",
+            "3.5mm jack": "Yes",
+            "Alert types": "Vibration, MP3 ringtones",
+            "Loudspeaker": "Yes, with stereo speakers"
+        },
+        "Tests": {
+            "Loudspeaker": "Voice 71dB / Noise 73dB / Ring 75dB",
+            "Audio quality": "Noise -91.5dB / Crosstalk -90.5dB",
+            "Display": "Contrast ratio: 917 (nominal)"
+        },
+        "Features": {
+            "": "- SNS integration\n- TV-out\n- MP4/DivX/Xvid/FLV/MKV/H.264/H.263 player\n- MP3/WAV/eAAC+/Flac player\n- Organizer\n- Image/video editor\n- Document editor/viewer\n- Google Search, Maps, Gmail,\nYouTube, Calendar, Google Talk, Picasa\n- Voice memo/dial\n- Predictive text input (Swype)",
+            "Java": "Yes, via Java MIDP emulator",
+            "Chipset": "Intel Atom Z2560",
+            "Colors": "Black, White",
+            "Radio": "No",
+            "GPU": "PowerVR SGX544MP2",
+            "Messaging": "SMS(threaded view), MMS, Email, Push Email, IM",
+            "Sensors": "Accelerometer, compass",
+            "GPS": "Yes, with A-GPS support and GLONASS",
+            "OS": "Android OS, v4.2.2 (Jelly Bean)",
+            "CPU": "Dual-core 1.6 GHz",
+            "Browser": "HTML5"
+        },
+        "Battery": {
+            "": "Non-removable Li-Po 6800 mAh battery",
+            "Talk time": "",
+            "Stand-by": ""
+        },
+        "Misc": {
+            "SAR US": "1.54 W/kg (body)",
+            "Price group": "",
+            "SAR EU": "0.91 W/kg (body)"
+        },
+        "General": {
+            "Status": "Available. Released 2013, July",
+            "2G Network": "GSM 850 / 900 / 1800 / 1900",
+            "3G Network": "HSDPA 850 / 900 / 1900 / 2100",
+            "Announced": "2013, June",
+            "SIM": "Micro-SIM"
+        },
+        "Camera": {
+            "Primary": "3.15 MP, 2048x1536 pixels",
+            "Video": "Yes, 720p",
+            "Features": "Geo-tagging",
+            "Secondary": "Yes, 1.3 MP"
+        },
+        "Memory": {
+            "Internal": "16/32 GB, 1 GB RAM",
+            "Card slot": "microSD, up to 64 GB"
+        },
+        "Data": {
+            "GPRS": "Yes",
+            "WLAN": "Wi-Fi 802.11 a/b/g/n, Wi-Fi Direct, dual-band, Wi-Fi hotspot",
+            "Infrared port": "Yes",
+            "Bluetooth": "Yes, v4.0 with A2DP",
+            "EDGE": "Yes",
+            "Speed": "HSDPA, 21 Mbps; HSUPA, 5.76 Mbps",
+            "USB": "Yes, v2.0, USB Host"
+        },
+        "Display": {
+            "": "- TouchWiz UX UI",
+            "Multitouch": "Yes",
+            "Type": "TFT capacitive touchscreen, 16M colors",
+            "Size": "1280 x 800 pixels, 10.1 inches (~149 ppi pixel density)"
+        }
+    },
+    "canonical_name": "Samsung Galaxy Tab 3 10.1 P5200",
+    "maker": "Samsung",
+    "name": "Galaxy Tab 3 10.1 P5200"
+}, {
+    "py/object": "__main__.Phone",
+    "description": "Tablet with no support for GSM voice communication, SMS, and MMS.",
+    "url": "http://gsmarena.com/samsung_galaxy_tab_3_10_1_p5210-5478.php",
+    "fields": {
+        "Body": {
+            "Dimensions": "243.1 x 176.1 x 8 mm (9.57 x 6.93 x 0.31 in)",
+            "Weight": "510 g (1.12 lb)"
+        },
+        "Sound": {
+            "": "- Dolby Surround sound enhancement",
+            "3.5mm jack": "Yes",
+            "Alert types": "Vibration, MP3 ringtones",
+            "Loudspeaker": "Yes, with stereo speakers"
+        },
+        "Tests": {
+            "Loudspeaker": "Voice 71dB / Noise 73dB / Ring 75dB",
+            "Audio quality": "Noise -91.5dB / Crosstalk -90.5dB",
+            "Display": "Contrast ratio: 917 (nominal)"
+        },
+        "Features": {
+            "": "- SNS integration\n- TV-out\n- MP4/DivX/Xvid/FLV/MKV/H.264/H.263 player\n- MP3/WAV/eAAC+/Flac player\n- Organizer\n- Image/video editor\n- Document editor/viewer\n- Google Search, Maps, Gmail,\nYouTube, Calendar, Google Talk, Picasa\n- Voice memo/dial\n- Predictive text input (Swype)",
+            "Java": "Yes, via Java MIDP emulator",
+            "Chipset": "Intel Atom Z2560",
+            "Colors": "Black, White",
+            "Radio": "No",
+            "GPU": "PowerVR SGX544MP2",
+            "Messaging": "Email, Push Email, IM",
+            "Sensors": "Accelerometer, compass",
+            "GPS": "Yes, with A-GPS support and GLONASS",
+            "OS": "Android OS, v4.2.2 (Jelly Bean)",
+            "CPU": "Dual-core 1.6 GHz",
+            "Browser": "HTML5"
+        },
+        "Battery": {
+            "": "Non-removable Li-Po 6800 mAh battery",
+            "Talk time": "",
+            "Stand-by": ""
+        },
+        "Misc": {
+            "SAR US": "0.83 W/kg (body)",
+            "Price group": ""
+        },
+        "General": {
+            "Status": "Available. Released 2013, July",
+            "2G Network": "N/A",
+            "Announced": "2013, June",
+            "SIM": "No"
+        },
+        "Camera": {
+            "Primary": "3.15 MP, 2048x1536 pixels",
+            "Video": "Yes, 720p",
+            "Features": "Geo-tagging",
+            "Secondary": "Yes, 1.3 MP"
+        },
+        "Memory": {
+            "Internal": "16/32 GB, 1 GB RAM",
+            "Card slot": "microSD, up to 64 GB"
+        },
+        "Data": {
+            "GPRS": "No",
+            "EDGE": "No",
+            "WLAN": "Wi-Fi 802.11 a/b/g/n, Wi-Fi Direct, dual-band, Wi-Fi hotspot",
+            "USB": "Yes, v2.0, USB Host",
+            "Bluetooth": "Yes, v4.0 with A2DP"
+        },
+        "Display": {
+            "": "- TouchWiz UX UI",
+            "Multitouch": "Yes",
+            "Protection": "Corning Gorilla Glass",
+            "Type": "TFT capacitive touchscreen, 16M colors",
+            "Size": "1280 x 800 pixels, 10.1 inches (~149 ppi pixel density)"
+        }
+    },
+    "canonical_name": "Samsung Galaxy Tab 3 10.1 P5210",
+    "maker": "Samsung",
+    "name": "Galaxy Tab 3 10.1 P5210"
+}]
