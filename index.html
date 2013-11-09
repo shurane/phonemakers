@@ -13,10 +13,15 @@
 
         <script id="entry-template" type="text/x-handlebars-template">
             {{#each fields}}
-                <h1 class="{{@key}}">{{@key}}</h1>
-                {{#each this}}
-                    {{@key}}
-                {{/each}}
+                <div class="{{@key}}">
+                    <h1 >{{@key}}</h1>
+                    <dl>
+                        {{#each this}}
+                        <dt>{{@key}}</dt> 
+                        <dd>{{this}}</dd>
+                        {{/each}}
+                    </dl>
+                </div>
             {{/each}}
         </script>
         <script src="bower_components/jquery/jquery.js"></script>

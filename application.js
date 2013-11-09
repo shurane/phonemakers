@@ -12,13 +12,16 @@
 
         //var listum = document.getElementById("hacker-list");
 
-        //var count = 0;
-        //for(var makerName in data){
-            //var maker = data[makerName];
-            //for (var phoneName in maker){
-                //count +=1;
-                //if ( count % 1200 === 0 ){
-                    //var phone = maker[phoneName];
+        var count = 0;
+        for(var makerName in data){
+            var maker = data[makerName];
+            for (var phoneName in maker){
+                count +=1;
+                if ( count % 1200 === 0 ){
+                    var phone = maker[phoneName];
+                    var phoneHTML = template(phone);
+                    console.log(phoneHTML);
+
                     //var element = document.createElement("div");
 
                     //console.log("========================================");
@@ -32,10 +35,10 @@
                             //console.log("Section::" + sectionName + "::" + phone.fields[fieldName][sectionName]);
                         //}
                     //}
-                //}
-            //}
-        //}
-        //console.log(count);
+                }
+            }
+        }
+        console.log(count);
 
     });
 }());
