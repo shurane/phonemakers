@@ -8,9 +8,9 @@
         //var hackerList = new List('hacker-list', options, data["ZTE"]);
         dundun = data; // XXX remove later
         phoneystump = dundun["Acer"][0];
-        console.log(template(phoneystump));
+        //console.log(template(phoneystump));
 
-        //var listum = document.getElementById("hacker-list");
+        var listum = document.getElementById("hacker-list");
 
         var count = 0;
         for(var makerName in data){
@@ -20,7 +20,8 @@
                 if ( count % 1200 === 0 ){
                     var phone = maker[phoneName];
                     var phoneHTML = template(phone);
-                    console.log(phoneHTML);
+                    //console.log(phoneHTML);
+                    //console.log($.parseHTML(phoneHTML));
 
                     //var element = document.createElement("div");
 
