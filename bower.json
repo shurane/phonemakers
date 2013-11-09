@@ -17,6 +17,7 @@
   "dependencies": {
     "bootstrap": "~3.0.0",
     "listjs": "~0.2.1",
-    "select2": "~3.4.4"
+    "select2": "~3.4.4",
+    "handlebars.js": "~1.1.2"
   }
 }
