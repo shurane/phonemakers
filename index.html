@@ -1,6 +1,5 @@
 <html>
     <head>
-        <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>   -->
         <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
         <link rel="stylesheet" href="bower_components/select2/select2.css">
         <title>Phonemakers</title>
@@ -8,29 +7,21 @@
 
     <body>
         <div id="hacker-list">
-            <table>
-                <tbody class="list"></tbody>
-            </table>
-                <!--<ul class="list"></ul>-->
-        </div>
-
-        <div id="secondary">
         </div>
 
         <!-- BOILERPLATE -->
 
-        <div style="display:none;">
-            <!-- A template element is needed when list is empty, TODO: needs a better solution -->
-            <li id="hacker-item">
-               <p class="maker"></p>
-               <p class="name"></p>
-               <p class="url"></p>
-            </li>
-        </div>
-
+        <script id="entry-template" type="text/x-handlebars-template">
+            {{#each fields}}
+                <h1 class="{{@key}}">{{@key}}</h1>
+                {{#each this}}
+                    {{@key}}
+                {{/each}}
+            {{/each}}
+        </script>
         <script src="bower_components/jquery/jquery.js"></script>
         <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
-        <script src="bower_components/listjs/src/list.js"></script>
+        <script src="bower_components/handlebars.js/dist/handlebars.js"></script>
         <script src="application.js"></script>
     </body>
 
