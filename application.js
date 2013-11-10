@@ -14,11 +14,12 @@
             var maker = data[makerName];
             for (var phoneName in maker){
                 count +=1;
-                if ( count % 300 === 0 ){
+                if ( count % 500 === 0 ){
                     var phone = maker[phoneName];
                     var phoneHTML = template(phone);
                     listumine.append(phoneHTML);
-                    console.log(phone.url);
+                    if (phone.description !== null)
+                        console.log(phone.description);
                     //console.log(phoneHTML);
                     //console.log($.parseHTML(phoneHTML));
 
