@@ -1,9 +1,9 @@
 (function(window, undefined){
-    window.source = $("#entry-template").html(); // TODO remove global
+    source = $("#entry-template").html(); // TODO remove global
     window.template = Handlebars.compile(source); // TODO remove global
     $.getJSON("mdict.json", function(data){
-        window.dundun = data; // XXX remove later
-        window.phoneystump = dundun["Acer"][0]; // XXX remove later
+        dundun = data; // XXX remove later
+        phoneystump = dundun["Acer"][0]; // XXX remove later
         //console.log(template(phoneystump));
 
         var listum = document.getElementById("hacker-list");
