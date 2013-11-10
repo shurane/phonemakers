@@ -1,6 +1,6 @@
 (function(window, undefined){
     source = $("#entry-template").html(); // TODO remove global
-    window.template = Handlebars.compile(source); // TODO remove global
+    template = Handlebars.compile(source); // TODO remove global
     $.getJSON("mdict.json", function(data){
         dundun = data; // XXX remove later
         phoneystump = dundun["Acer"][0]; // XXX remove later
