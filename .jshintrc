@@ -3,6 +3,7 @@
   "unused": true,
   "globals": { "document": false
              , "console" : false
+             , "Handlebars" : false
              , "$" : false 
              }
 
