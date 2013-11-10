@@ -1,7 +1,6 @@
 <html>
     <head>
         <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
-        <link rel="stylesheet" href="bower_components/select2/select2.css">
         <title>Phonemakers</title>
     </head>
 
@@ -12,10 +11,15 @@
         <!-- BOILERPLATE -->
 
         <script id="entry-template" type="text/x-handlebars-template">
+            <div>
+            <h1>{{canonical_name}}</h1>
+            {{#if this.description}}
+            <h2 class="text-muted">{{this.description}}</h2>
+            {{/if}}
             {{#each fields}}
                 <div class="{{@key}}">
-                    <h1 >{{@key}}</h1>
-                    <dl>
+                    <h3 >{{@key}}</h3>
+                    <dl class="dl-horizontal">
                         {{#each this}}
                         <dt>{{@key}}</dt> 
                         <dd>{{this}}</dd>
@@ -23,6 +27,7 @@
                     </dl>
                 </div>
             {{/each}}
+            </div>
         </script>
         <script src="bower_components/jquery/jquery.js"></script>
         <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
