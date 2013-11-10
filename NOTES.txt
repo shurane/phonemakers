@@ -3,3 +3,5 @@ What do I want for text search?
     - listjs
     - fuse.js
     - fullproof
+
+Show phones in hero units? Something.
