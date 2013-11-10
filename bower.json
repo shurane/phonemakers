@@ -18,6 +18,7 @@
     "bootstrap": "~3.0.0",
     "listjs": "~0.2.1",
     "select2": "~3.4.4",
-    "handlebars.js": "~1.1.2"
+    "handlebars.js": "~1.1.2",
+    "typeahead.js": "~0.9.3"
   }
 }
