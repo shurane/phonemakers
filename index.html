@@ -13,6 +13,7 @@
 
         <script id="entry-template" type="text/x-handlebars-template">
             <div class="row">
+            <div class="col-md-6">
             <h1>{{canonical_name}}</h1>
             {{#if description}}
             <h2 class="text-muted">{{description}}</h2>
@@ -28,6 +29,7 @@
                     </dl>
                 </div>
             {{/each}}
+            </div>
             </div>
         </script>
         <script src="bower_components/jquery/jquery.js"></script>
