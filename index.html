@@ -13,6 +13,7 @@
 
         <script id="entry-template" type="text/x-handlebars-template">
             <div class="row">
+            <div class="col-md-6">
             <h1>{{canonical_name}}</h1>
             {{#if description}}
             <h2 class="text-muted">{{description}}</h2>
@@ -29,10 +30,14 @@
                 </div>
             {{/each}}
             </div>
+            </div>
         </script>
         <script src="bower_components/jquery/jquery.js"></script>
         <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
-        <script src="bower_components/handlebars.js/dist/handlebars.js"></script>
+        <script src="bower_components/underscore/underscore.js"></script>
+        <script src="bower_components/backbone/backbone.js"></script>
+        <script src="bower_components/backbone.localStorage/backbone.localStorage.js"></script>
+        <script src="bower_components/handlebars/handlebars.js"></script>
         <script src="bower_components/typeahead.js/dist/typeahead.js"></script>
         <script src="application.js"></script>
     </body>
