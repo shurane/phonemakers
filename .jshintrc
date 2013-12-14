@@ -1,0 +1,12 @@
+{
+  "undef": true,
+  "unused": true,
+  "globals": { "document": false
+             , "console" : false
+             , "Handlebars" : false
+             , "Backbone" : false
+             , "$" : false 
+             , "_" : false 
+             }
+
+}
