@@ -1,33 +1,52 @@
 (function(window, undefined){
-    source = $("#entry-template").html(); // TODO remove global
-    template = Handlebars.compile(source); // TODO remove global
-    $.getJSON("mdict.json", function(data){
-        dundun = data; // XXX remove later
-        phoneystump = dundun["Acer"][0]; // XXX remove later
-        //console.log(template(phoneystump));
+    //source = $("#entry-template").html(); // TODO remove global
+    //template = Handlebars.compile(source); // TODO remove global
 
-        var listum = document.getElementById("hacker-list");
-        var listumine = $("#hacker-list");
-
-        var count = 0;
-        for(var makerName in data){
-            var maker = data[makerName];
-            for (var phoneName in maker){
-                count +=1;
-                if ( count % 500 === 0 ){
-                    var phone = maker[phoneName];
-                    var phoneHTML = template(phone);
-                    listumine.append(phoneHTML);
-                    if (phone.description !== null)
-                        console.log(phone.description);
-                    //console.log(phoneHTML);
-                    //console.log($.parseHTML(phoneHTML));
-
-                }
-            }
+    var Phone = Backbone.Model.extend({
+        defaults: {
+            name: 'voidthis',
+            maker: 'voidtech',
+            fields: {}
+        },
+        initialize: function(){  
+            
         }
-        console.log(count);
-
     });
-}());
 
+    var PhoneList = Backbone.Collection.extend({
+        model: Phone,
+        url: "/phones.json",
+        localStorage: new Backbone.LocalStorage("phones-backbone"),
+
+        byMaker: function(maker) {
+            return this.where({maker: maker});
+        },
+        byName: function(name) {
+            return this.filter(function(phone){
+                return _.str.include(phone.get('name'), name);
+            });
+        },
+        comparator: 'name'
+    });
+
+    var Phones = new PhoneList();
+    Phones.fetch({
+            success : function(model, response, options){
+                console.log(model);
+                console.log(response);
+                console.log(options);
+            },
+            error : function(model, response, options){
+                console.error(model);
+                console.error(response);
+                console.error(options);
+            }
+    });
+
+    nexusone = new Phone({ name:"Google Nexus One", maker: "Google"});
+
+    //$.getJSON("phones.json", function(data){
+    //});
+
+}());
+// IIFE http://benalman.com/news/2010/11/immediately-invoked-function-expression/
