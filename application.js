@@ -16,7 +16,6 @@
     var PhoneList = Backbone.Collection.extend({
         model: Phone,
         url: "/phones.json",
-        localStorage: new Backbone.LocalStorage("phones-backbone"),
 
         byMaker: function(maker) {
             return this.where({maker: maker});
@@ -29,21 +28,9 @@
         comparator: 'name'
     });
 
-    var Phones = new PhoneList();
-    Phones.fetch({
-            success : function(model, response, options){
-                console.log(model);
-                console.log(response);
-                console.log(options);
-            },
-            error : function(model, response, options){
-                console.error(model);
-                console.error(response);
-                console.error(options);
-            }
-    });
-
     nexusone = new Phone({ name:"Google Nexus One", maker: "Google"});
+    Phones = new PhoneList();
+    Phones.fetch();
 
     //$.getJSON("phones.json", function(data){
     //});
