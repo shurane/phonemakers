@@ -2,7 +2,7 @@
   "name": "phonemakers",
   "version": "0.0.1",
   "authors": [
-    "Ehtesh Choudhury <merlockmagus@gmail.com>"
+    "Ehtesh Choudhury <ehtesh.choudhury@gmail.com>"
   ],
   "description": "filter phones by features",
   "main": "index.html",
