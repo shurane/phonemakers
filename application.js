@@ -10,7 +10,7 @@
         }
     });
 
-    var PhoneList = Backbone.Collection.extend({
+    var PhoneCollection = Backbone.Collection.extend({
         model: Phone,
         url: "/phones.json",
 
@@ -29,8 +29,8 @@
         parse: function(resp) {
             this.page = 0;
             this.perPage = 20;
-            this.total = resp.total;
-            return resp.models;
+            this.total = resp.length;
+            return resp;
         },
 
         pageInfo: function() {
@@ -78,10 +78,6 @@
 
     });
 
-    var PhoneListView = Backbone.View.extend({
-        
-    });
-
     // // William Saunders mentions typing a View to typeahead
     //var SearchView = Backbone.View.extend({
         //render: function() {
@@ -99,11 +95,11 @@
 
     var PhoneView = Backbone.View.extend({
         tagName : "div",
-        className : "phone",
+        template : phoneTemplate,
         render : function (){
             // use mustache templates here
             
-            this.$el.html(phoneTemplate(this.model.attributes));
+            //this.$el.html(phoneTemplate(this.model.attributes));
         }
     });
 
@@ -113,15 +109,11 @@
 
     phoneapp = new ApplicationView();
     phoneapp.render();
-
-    nexusone = new Phone({ name:"Google Nexus One", maker: "Google"});
-
-    nexusoneView = new PhoneView({model:nexusone});
-    Phones = new PhoneList();
-    Phones.fetch();
+    phoneCollection = new PhoneCollection();
+    phoneCollection.fetch();
 
     setTimeout(function(){
-        phonesumine = Phones.at(0);
+        phonesumine = phoneCollection.at(0);
         phonesumineView = new PhoneView({model:phonesumine});
         phonesumineView.render();
 
