@@ -1,5 +1,5 @@
 (function(window, undefined){
-    phoneSource = $("#entry-template").html(); // TODO remove global
+    phoneSource = $("#phoneTemplate").html(); // TODO remove global
     phoneTemplate = Handlebars.compile(phoneSource); // TODO remove global
 
     var Phone = Backbone.Model.extend({
@@ -99,7 +99,7 @@
         render : function (){
             // use mustache templates here
             
-            //this.$el.html(phoneTemplate(this.model.attributes));
+            this.$el.html(this.template(this.model.attributes));
         }
     });
 
