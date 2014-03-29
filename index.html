@@ -17,23 +17,59 @@
 
         <script id="phoneTemplate" type="text/x-handlebars-template">
             <div class="row">
-            <div class="col-md-6">
-            <h1>{{canonical_name}}</h1>
-            {{#if description}}
-            <h2 class="text-muted">{{description}}</h2>
-            {{/if}}
-            {{#each fields}}
-                <div class="{{@key}}">
-                    <h3 >{{@key}}</h3>
-                    <dl class="dl-horizontal">
-                        {{#each this}}
-                        <dt>{{@key}}</dt> 
-                        <dd>{{this}}</dd>
-                        {{/each}}
-                    </dl>
+                <div class="col-md-6">
+                <h1>{{canonical_name}}</h1>
+                {{#if description}}
+                <h2 class="text-muted">{{description}}</h2>
+                {{/if}}
+
+                <dl class="dl-horizontal">
+                    <dt>Dimensions</dt> 
+                    <dd>{{this.fields.Body.Dimensions}}</dd>
+                </dl>
+                <dl class="dl-horizontal">
+                    <dt>Weight</dt> 
+                    <dd>{{this.fields.Body.Weight}}</dd>
+                </dl>
+                <dl class="dl-horizontal">
+                    <dt>OS</dt> 
+                    <dd>{{this.fields.Features.OS}}</dd>
+                </dl>
+                <dl class="dl-horizontal">
+                    <dt>SIM</dt> 
+                    <dd>{{this.fields.General.SIM}}</dd>
+                </dl>
+                <dl class="dl-horizontal">
+                    <dt>Display</dt> 
+                    <dd>{{this.fields.Display.Size}}</dd>
+                </dl>
+                <dl class="dl-horizontal">
+                    <dt>Display Type</dt> 
+                    <dd>{{this.fields.Display.Type}}</dd>
+                </dl>
+
+                <dl class="dl-horizontal">
+                    <dt>Multitouch</dt> 
+                    <dd>{{this.fields.Display.Multitouch}}</dd>
+                </dl>
+                <dl class="dl-horizontal">
+                    <dt>Bluetooth</dt> 
+                    <dd>{{this.fields.Data.Bluetooth}}</dd>
+                </dl>
+                <dl class="dl-horizontal">
+                    <dt>NFC</dt> 
+                    <dd>{{this.fields.Data.NFC}}</dd>
+                </dl>
+                <dl class="dl-horizontal">
+                    <dt>Announced</dt> 
+                    <dd>{{this.fields.General.Announced}}</dd>
+                </dl>
+                <dl class="dl-horizontal">
+                    <dt>Released</dt> 
+                    <dd>{{this.fields.General.Status}}</dd>
+                </dl>
+
                 </div>
-            {{/each}}
-            </div>
             </div>
         </script>
         <script src="bower_components/jquery/jquery.js"></script>

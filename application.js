@@ -113,7 +113,7 @@
     phoneCollection.fetch();
 
     setTimeout(function(){
-        phonesumine = phoneCollection.at(0);
+        phonesumine = phoneCollection.at(1000);
         phonesumineView = new PhoneView({model:phonesumine});
         phonesumineView.render();
 
