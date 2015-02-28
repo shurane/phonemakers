@@ -9,7 +9,6 @@ import urlparse
 from collections import defaultdict
 
 import logging
-logging.basicConfig(filename="./cache/error.log")
 
 """
 This grabs the phone data from GSMArena. It goes through a list of makers,
@@ -52,6 +51,7 @@ CACHE_PHONES = "{0}/phones".format(CACHE)
 mkdir_p(CACHE)
 mkdir_p(CACHE_MAKERS)
 mkdir_p(CACHE_PHONES)
+logging.basicConfig(filename="./cache/error.log")
 
 def rget(url, directory=CACHE, **kwargs):
     # if cached, open cached file instead of using requests
